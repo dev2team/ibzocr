@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper
+	namespace="net.ibizsys.ocr.ocr.mapper.OCRRecordMapper">
+	<!--该方法用于重写mybatis中selectById方法，以实现查询逻辑属性-->
+	<select id="selectById"  resultMap="OCRRecordResultMap" databaseId="mysql">
+		<![CDATA[	select t1.* from (
+		SELECT t1.`CREATEDATE`, t1.`CREATEMAN`, t1.`FILELIST`, t1.`OCRRECORDID`, t1.`OCRRECORDNAME`, t1.`PROCSTATE`, t1.`UPDATEDATE`, t1.`UPDATEMAN` FROM `T_OCRRECORD` t1  
+		)t1     where  ocrrecordid=#{id}]]>
+	</select>
+	<select id="selectById"  resultMap="OCRRecordResultMap" databaseId="postgresql">
+		<![CDATA[	select t1.* from (
+		SELECT t1.CREATEDATE, t1.CREATEMAN, t1.FILELIST, t1.OCRRECORDID, t1.OCRRECORDNAME, t1.PROCSTATE, t1.UPDATEDATE, t1.UPDATEMAN FROM T_OCRRECORD t1  
+		)t1     where  ocrrecordid=#{id}]]>
+	</select>
+	<!--通过mybatis将查询结果注入到entity中,通过配置autoMapping="true"由mybatis自动处理映射关系 -->
+	<resultMap id="OCRRecordResultMap" type="net.ibizsys.ocr.ocr.domain.OCRRecord" autoMapping="true">
+		<id property="ocrrecordid" column="ocrrecordid" /><!--主键字段映射-->
+	</resultMap>
+	<!--输出平台内配置的数据查询[DEFAULT]-->
+	<select id="searchDefault"  parameterType="net.ibizsys.ocr.ocr.service.dto.OCRRecordSearchFilter"  resultMap="OCRRecordResultMap" databaseId="mysql">
+		select t1.* from (
+        <![CDATA[	SELECT t1.`CREATEDATE`, t1.`CREATEMAN`, t1.`OCRRECORDID`, t1.`OCRRECORDNAME`, t1.`PROCSTATE`, t1.`UPDATEDATE`, t1.`UPDATEMAN` FROM `T_OCRRECORD` t1    ]]>
+             <if test="srf.permissionCond!=null and srf.permissionCond.sqlSegment!=null">${srf.permissionCond.sqlSegment}</if>
+		  <![CDATA[				  ]]>
+		)t1
+			<where><if test="ew!=null and ew.sqlSegment!=null and !ew.emptyOfWhere">${ew.sqlSegment}</if></where>
+				   <if test="ew!=null and ew.sqlSegment!=null and ew.emptyOfWhere">${ew.sqlSegment}</if>
+	</select>
+	<select id="searchDefault"  parameterType="net.ibizsys.ocr.ocr.service.dto.OCRRecordSearchFilter"  resultMap="OCRRecordResultMap" databaseId="postgresql">
+		select t1.* from (
+        <![CDATA[	SELECT t1.CREATEDATE, t1.CREATEMAN, t1.OCRRECORDID, t1.OCRRECORDNAME, t1.PROCSTATE, t1.UPDATEDATE, t1.UPDATEMAN FROM T_OCRRECORD t1    ]]>
+             <if test="srf.permissionCond!=null and srf.permissionCond.sqlSegment!=null">${srf.permissionCond.sqlSegment}</if>
+		  <![CDATA[				  ]]>
+		)t1
+			<where><if test="ew!=null and ew.sqlSegment!=null and !ew.emptyOfWhere">${ew.sqlSegment}</if></where>
+				   <if test="ew!=null and ew.sqlSegment!=null and ew.emptyOfWhere">${ew.sqlSegment}</if>
+	</select>
+	<!--输出平台内配置的数据查询[MY]-->
+	<select id="searchMy"  parameterType="net.ibizsys.ocr.ocr.service.dto.OCRRecordSearchFilter"  resultMap="OCRRecordResultMap" databaseId="mysql">
+		select t1.* from (
+        <![CDATA[	SELECT t1.`CREATEDATE`, t1.`CREATEMAN`, t1.`OCRRECORDID`, t1.`OCRRECORDNAME`, t1.`PROCSTATE`, t1.`UPDATEDATE`, t1.`UPDATEMAN` FROM `T_OCRRECORD` t1    ]]>
+             <if test="srf.permissionCond!=null and srf.permissionCond.sqlSegment!=null">${srf.permissionCond.sqlSegment}</if>
+		  <![CDATA[	
+					 WHERE 	
+			( t1.`UPDATEMAN` =  #{srf.sessioncontext.srfpersonid} )
+			  ]]>
+		)t1
+			<where><if test="ew!=null and ew.sqlSegment!=null and !ew.emptyOfWhere">${ew.sqlSegment}</if></where>
+				   <if test="ew!=null and ew.sqlSegment!=null and ew.emptyOfWhere">${ew.sqlSegment}</if>
+	</select>
+	<select id="searchMy"  parameterType="net.ibizsys.ocr.ocr.service.dto.OCRRecordSearchFilter"  resultMap="OCRRecordResultMap" databaseId="postgresql">
+		select t1.* from (
+        <![CDATA[	SELECT t1.CREATEDATE, t1.CREATEMAN, t1.OCRRECORDID, t1.OCRRECORDNAME, t1.PROCSTATE, t1.UPDATEDATE, t1.UPDATEMAN FROM T_OCRRECORD t1    ]]>
+             <if test="srf.permissionCond!=null and srf.permissionCond.sqlSegment!=null">${srf.permissionCond.sqlSegment}</if>
+		  <![CDATA[	
+					 WHERE 	
+			( t1.UPDATEMAN =  #{srf.sessioncontext.srfpersonid} )
+			  ]]>
+		)t1
+			<where><if test="ew!=null and ew.sqlSegment!=null and !ew.emptyOfWhere">${ew.sqlSegment}</if></where>
+				   <if test="ew!=null and ew.sqlSegment!=null and ew.emptyOfWhere">${ew.sqlSegment}</if>
+	</select>
+	<select id="selectPermission"  resultMap="OCRRecordResultMap" databaseId="mysql">
+			select t1.* from (
+        <![CDATA[ SELECT t1.`CREATEDATE`, t1.`CREATEMAN`, t1.`OCRRECORDID`, t1.`OCRRECORDNAME`, t1.`PROCSTATE`, t1.`UPDATEDATE`, t1.`UPDATEMAN` FROM `T_OCRRECORD` t1   ]]>
+        	<if test="pw!=null and pw.sqlSegment!=null">${pw.sqlSegment}</if>
+		)t1
+	</select>
+	<select id="selectPermission"  resultMap="OCRRecordResultMap" databaseId="postgresql">
+			select t1.* from (
+        <![CDATA[ SELECT t1.CREATEDATE, t1.CREATEMAN, t1.OCRRECORDID, t1.OCRRECORDNAME, t1.PROCSTATE, t1.UPDATEDATE, t1.UPDATEMAN FROM T_OCRRECORD t1   ]]>
+        	<if test="pw!=null and pw.sqlSegment!=null">${pw.sqlSegment}</if>
+		)t1
+	</select>
+</mapper>

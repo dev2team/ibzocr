@@ -1,0 +1,29 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+    <!--输出实体[OCRRECORD]数据结构 -->
+    <changeSet author="ibzocr" id="tab-ocrrecord-96-1">
+        <createTable tableName="T_OCRRECORD">
+                <column name="OCRRECORDNAME" remarks="识别记录名称" type="VARCHAR(200)">
+                </column>
+                <column name="OCRRECORDID" remarks="识别记录标识" type="VARCHAR(100)">
+                    <constraints primaryKey="true" primaryKeyName="PK_OCRRECORD_OCRRECORDID"/>
+                </column>
+                <column name="CREATEDATE" remarks="建立时间" type="DATETIME">
+                </column>
+                <column name="UPDATEDATE" remarks="更新时间" type="DATETIME">
+                </column>
+                <column name="UPDATEMAN" remarks="更新人" type="VARCHAR(200)">
+                </column>
+                <column name="CREATEMAN" remarks="建立人" type="VARCHAR(200)">
+                </column>
+                <column name="FILELIST" remarks="文件清单" type="TEXT(1048576)">
+                </column>
+                <column name="PROCSTATE" remarks="处理状态" type="VARCHAR(100)">
+                </column>
+        </createTable>
+    </changeSet>
+
+        <!--输出实体[OCRRECORD]外键关系 -->
+
+</databaseChangeLog>

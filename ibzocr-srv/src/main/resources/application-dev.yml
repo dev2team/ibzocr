@@ -1,0 +1,93 @@
+server:
+  port: 8083
+  servlet:
+    contextPath: /
+  compression:
+    enabled: true
+    mimeTypes: application/javascript,application/json,application/xml,text/html,text/xml,text/plain,text/javascript
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: loggers
+
+ibiz:
+  filePath: /app/file/
+  ocr:
+    ApiPath: http://172.16.100.243:8010/ocr
+    Mode: base64 #path 文件共享，base64 非共享
+    Resize: 1 #1 自动缩放到600,0 不自动缩放
+    FilePath: /app/ocr/src/ #ocr文件暂存位置
+
+spring:
+  application:
+    name: ocrweb
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file://D:\ibzocr\ibzocr-srv\target\classes\META-INF\resources
+  cache:
+    redis:
+      time-to-live: 3600
+    caffeine:
+      spec: initialCapacity=5,maximumSize=500,expireAfterWrite=3600s
+  datasource:
+    dynamic:
+      druid: #以下是全局默认值，可以全局更改
+        filters: stat,wall,log4j2
+        #配置初始化大小/最小/最大
+        initial-size: 1
+        min-idle: 1
+        max-active: 20
+        #获取连接等待超时时间
+        max-wait: 60000
+        #间隔多久进行一次检测，检测需要关闭的空闲连接
+        time-between-eviction-runs-millis: 60000
+        #一个连接在池中最小生存的时间
+        min-evictable-idle-time-millis: 300000
+        validation-query: SELECT 1 FROM DUAL
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        #打开PSCache，并指定每个连接上PSCache的大小。oracle设为true，mysql设为false。分库分表较多推荐设置为false
+        pool-prepared-statements: false
+        max-pool-prepared-statement-per-connection-size: 20
+      datasource:
+        master:
+          username: ibzocr
+          password: 'ibzocr'
+          url: jdbc:h2:mem:ibzocr;MODE=postgresql;INIT=runscript from 'classpath:liquibase/config/init_h2.sql';
+          driver-class-name: org.h2.Driver
+          isSyncDBSchema: true
+          defaultSchema: ibzocr
+          conf: classpath:liquibase/h2.xml
+        tempMaster:
+          username: ibzocr
+          password: 'ibzocr'
+          url: jdbc:h2:mem:Temp_ibzocr;MODE=postgresql;INIT=runscript from 'classpath:liquibase/config/init_h2.sql';
+          driver-class-name: org.h2.Driver
+          isSyncDBSchema: true
+          defaultSchema: ibzocr
+          conf: classpath:liquibase/h2.xml
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 200MB
+      max-request-size: 1000MB
+
+#mybatis-plus
+mybatis-plus:
+  global-config:
+    refresh-mapper: true
+    db-config:
+      # 逻辑已删除
+      logic-delete-value: 1
+      # 逻辑未删除
+      logic-not-delete-value: 0
+  mapper-locations: classpath*:/mapper/*/*/*.xml
+  configuration:
+    jdbc-type-for-null: 'null'
+    map-underscore-to-camel-case: false
+
+# Logger Config
+logging:
+  config: classpath:logback-spring.xml

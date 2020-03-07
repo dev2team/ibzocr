@@ -1,0 +1,18 @@
+version: "2.3"
+services:
+  ibz-proxy:
+    image: registry.ibiz5.com:5000/sadept2/ibzocr
+    ports:
+      - 8083:8083
+    volumes:
+      - /app/:/app
+      - /app/font/fontconfig:/usr/share/fontconfig
+      - /app/font/fonts:/usr/share/fonts
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+      - IBIZ_FILEPATH=/app/file/
+      - IBIZ_OCR_FILEPATH=/app/ocr/src/
+      - IBIZ_OCR_APIPATH=http://172.16.100.243:8010/ocr
+      - IBIZ_OCR_MODE=path
+      - IBIZ_OCR_POOLSIZE=2
+

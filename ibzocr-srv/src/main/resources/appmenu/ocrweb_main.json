@@ -1,0 +1,38 @@
+{
+	"name":"appmenu",
+	"logicname":"appmenu",
+	"appname":"默认应用"
+	,"items":[{
+	"id":"94B22409-7083-4E76-A090-D8C74E70BFD8"
+	,"name":"menuitem1"
+	,"text":"通用识别"
+	,"type":"MENUITEM" 
+	,"counterid":""
+	,"tooltip":"通用识别" 
+	,"expanded":false
+	,"separator":false
+	,"hidden":false
+	,"hidesidebar":false
+	,"opendefault":false
+,"iconcls":"","icon":""
+,"textcls":""
+	,"appfunctag":"_3"
+		,"resourcetag":""
+},{
+	"id":"B3EA1A3B-9D93-40D5-AAF6-7193B049E003"
+	,"name":"menuitem2"
+	,"text":"识别记录"
+	,"type":"MENUITEM" 
+	,"counterid":""
+	,"tooltip":"识别记录" 
+	,"expanded":false
+	,"separator":false
+	,"hidden":false
+	,"hidesidebar":false
+	,"opendefault":false
+,"iconcls":"","icon":""
+,"textcls":""
+	,"appfunctag":"_2"
+		,"resourcetag":""
+}]
+}

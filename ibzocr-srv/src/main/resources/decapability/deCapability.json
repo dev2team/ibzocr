@@ -1,0 +1,12 @@
+    
+    [
+
+    {
+    "dename":"OCRRECORD",
+    "delogicname":"识别记录",
+    "sysmoudle":"OCR",
+    "dedataset":["DEFAULT"],
+    "dedatarange":["ALL","CUR_ORG","CUR_ORGSEC","CREATEMAN"],
+    "deprivs":["READ","CREATE","UPDATE","DELETE"]
+     }
+    ]
