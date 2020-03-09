@@ -19,7 +19,7 @@
     "font-awesome": "4.7.0",
     "iview": "^3.4.2",
     "rxjs": "^6.5.2",
-    "tinymce": "4.8.5",
+    "tinymce": "5.2.0",
     "vue": "^2.6.10",
     "vue-class-component": "^7.1.0",
     "vue-i18n": "^8.12.0",
