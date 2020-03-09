@@ -1,0 +1,12 @@
+*target
+.settings
+*.project
+*.classpath
+*.factorypath
+.history
+.vscode
+.idea
+**.iml
+*.jar
+*.log
+**.lock
