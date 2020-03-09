@@ -1,0 +1,30 @@
+maingrid([
+    {
+        "name": "procstate",
+        "valueitem": "procstate"
+    },
+    {
+        "name": "ocrrecordid",
+        "valueitem": "ocrrecordid"
+    },
+    {
+        "name": "ocrrecordname",
+        "valueitem": "ocrrecordname"
+    },
+    {
+        "name": "updatedate",
+        "valueitem": "updatedate"
+    },
+    {
+        "name": "srfmajortext",
+        "valueitem": "ocrrecordname"
+    },
+    {
+        "name": "srfdataaccaction",
+        "valueitem": "ocrrecordid"
+    },
+    {
+        "name": "srfkey",
+        "valueitem": "ocrrecordid"
+    },
+])

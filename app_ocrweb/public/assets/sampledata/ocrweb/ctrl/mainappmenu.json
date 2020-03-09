@@ -1,0 +1,28 @@
+mainappmenu({
+    "name":"appmenu"
+    ,"items":[{
+	"name":"menuitem1"
+	,"text":"通用识别"
+	,"type":"MENUITEM"
+	,"tooltip":"通用识别"
+	
+	
+	
+	
+	
+	,"appfunctag":"_3"
+}
+,{
+	"name":"menuitem2"
+	,"text":"识别记录"
+	,"type":"MENUITEM"
+	,"tooltip":"识别记录"
+	
+	
+	
+	
+	
+	,"appfunctag":"_2"
+}
+]
+})

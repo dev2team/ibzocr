@@ -1,0 +1,5540 @@
+codelist([
+        {
+        "srfkey": "ibzocr_CodeList16",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "PAGE",
+                "label": "内置页面",
+                "text": "内置页面",
+                "value": "PAGE"
+            },
+            {
+                "id": "REPORT",
+                "label": "报表",
+                "text": "报表",
+                "value": "REPORT"
+            },
+            {
+                "id": "CUSTOM",
+                "label": "自定义",
+                "text": "自定义",
+                "value": "CUSTOM"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList12",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "REPORTFOLDER_1",
+                "label": "经营性报表",
+                "text": "经营性报表",
+                "value": "REPORTFOLDER_1"
+            },
+            {
+                "id": "REPORTFOLDER_2",
+                "label": "财务报表",
+                "text": "财务报表",
+                "value": "REPORTFOLDER_2"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList41",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "拾取链接",
+                "text": "拾取链接",
+                "value": "1"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList102",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "CARETTEMPLGROUP_SRFMSG_MSGTEMPLATE",
+                "label": "消息模板",
+                "text": "消息模板",
+                "value": "CARETTEMPLGROUP_SRFMSG_MSGTEMPLATE"
+            },
+            {
+                "id": "CARETTEMPLGROUP_SRFDA_FILLENTITYPARAM",
+                "label": "系统属性",
+                "text": "系统属性",
+                "value": "CARETTEMPLGROUP_SRFDA_FILLENTITYPARAM"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList7",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "FORM",
+                "label": "表单",
+                "text": "表单",
+                "value": "FORM"
+            },
+            {
+                "id": "PAGE",
+                "label": "内置页面",
+                "text": "内置页面",
+                "value": "PAGE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList105",
+        "emptytext": "未定义",
+        "items": [
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList37",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "AUTO",
+                "label": "自动",
+                "text": "自动",
+                "value": "AUTO"
+            },
+            {
+                "id": "MANUAL",
+                "label": "手动",
+                "text": "手动",
+                "value": "MANUAL"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList55",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "DEF.LNAME",
+                "label": "实体属性逻辑名称",
+                "text": "实体属性逻辑名称",
+                "value": "DEF.LNAME"
+            },
+            {
+                "id": "CL.ITEM.LNAME",
+                "label": "代码表项",
+                "text": "代码表项",
+                "value": "CL.ITEM.LNAME"
+            },
+            {
+                "id": "TBB.TEXT",
+                "label": "工具栏按钮文本",
+                "text": "工具栏按钮文本",
+                "value": "TBB.TEXT"
+            },
+            {
+                "id": "TBB.TOOLTIP",
+                "label": "工具栏按钮提示",
+                "text": "工具栏按钮提示",
+                "value": "TBB.TOOLTIP"
+            },
+            {
+                "id": "MENUITEM.CAPTION",
+                "label": "菜单项文本",
+                "text": "菜单项文本",
+                "value": "MENUITEM.CAPTION"
+            },
+            {
+                "id": "PAGE.HEADER",
+                "label": "界面头部标题",
+                "text": "界面头部标题",
+                "value": "PAGE.HEADER"
+            },
+            {
+                "id": "PAGE.COMMON",
+                "label": "界面常规",
+                "text": "界面常规",
+                "value": "PAGE.COMMON"
+            },
+            {
+                "id": "CONTROL",
+                "label": "控件文本",
+                "text": "控件文本",
+                "value": "CONTROL"
+            },
+            {
+                "id": "ERROR.STD",
+                "label": "标准错误",
+                "text": "标准错误",
+                "value": "ERROR.STD"
+            },
+            {
+                "id": "CTRL",
+                "label": "处理逻辑",
+                "text": "处理逻辑",
+                "value": "CTRL"
+            },
+            {
+                "id": "COMMON",
+                "label": "通用",
+                "text": "通用",
+                "value": "COMMON"
+            },
+            {
+                "id": "OTHER",
+                "label": "其它",
+                "text": "其它",
+                "value": "OTHER"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList11",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "USERDECLARE",
+                "label": "变量定义",
+                "text": "变量定义",
+                "value": "USERDECLARE"
+            },
+            {
+                "id": "USERINIT",
+                "label": "变量初始化",
+                "text": "变量初始化",
+                "value": "USERINIT"
+            },
+            {
+                "id": "INPUTCHECK",
+                "label": "数据检查",
+                "text": "数据检查",
+                "value": "INPUTCHECK"
+            },
+            {
+                "id": "BEFOREACTION",
+                "label": "操作之前",
+                "text": "操作之前",
+                "value": "BEFOREACTION"
+            },
+            {
+                "id": "EXECUTEACTION",
+                "label": "执行操作",
+                "text": "执行操作",
+                "value": "EXECUTEACTION"
+            },
+            {
+                "id": "AFTERACTION",
+                "label": "操作之后",
+                "text": "操作之后",
+                "value": "AFTERACTION"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList112",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "VARCHAR",
+                "label": "文本",
+                "text": "文本",
+                "value": "VARCHAR"
+            },
+            {
+                "id": "INT",
+                "label": "整形",
+                "text": "整形",
+                "value": "INT"
+            },
+            {
+                "id": "FLOAT",
+                "label": "浮点",
+                "text": "浮点",
+                "value": "FLOAT"
+            },
+            {
+                "id": "DATETIME",
+                "label": "日期",
+                "text": "日期",
+                "value": "DATETIME"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList24",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "CREATE",
+                "label": "新建",
+                "text": "新建",
+                "value": "CREATE"
+            },
+            {
+                "id": "UPDATE",
+                "label": "更新",
+                "text": "更新",
+                "value": "UPDATE"
+            },
+            {
+                "id": "DELETE",
+                "label": "删除",
+                "text": "删除",
+                "value": "DELETE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList88",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "NONE",
+                "label": "无",
+                "text": "无",
+                "value": "NONE"
+            },
+            {
+                "id": "READ",
+                "label": "读取",
+                "text": "读取",
+                "value": "READ"
+            },
+            {
+                "id": "UPDATE",
+                "label": "更新",
+                "text": "更新",
+                "value": "UPDATE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList87",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "YM",
+                "label": "年、月",
+                "text": "年、月",
+                "value": "YM"
+            },
+            {
+                "id": "YMW",
+                "label": "年、月、周",
+                "text": "年、月、周",
+                "value": "YMW"
+            },
+            {
+                "id": "YMWD",
+                "label": "年、月、周、天",
+                "text": "年、月、周、天",
+                "value": "YMWD"
+            },
+            {
+                "id": "YMWDH",
+                "label": "年、月、周、天、小时",
+                "text": "年、月、周、天、小时",
+                "value": "YMWDH"
+            },
+            {
+                "id": "YMD",
+                "label": "年、月、天",
+                "text": "年、月、天",
+                "value": "YMD"
+            },
+            {
+                "id": "YMDH",
+                "label": "年、月、天、小时",
+                "text": "年、月、天、小时",
+                "value": "YMDH"
+            },
+            {
+                "id": "YW",
+                "label": "年、周",
+                "text": "年、周",
+                "value": "YW"
+            },
+            {
+                "id": "YWD",
+                "label": "年、周、天",
+                "text": "年、周、天",
+                "value": "YWD"
+            },
+            {
+                "id": "YWDH",
+                "label": "年、周、天、小时",
+                "text": "年、周、天、小时",
+                "value": "YWDH"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_SysOperator",
+        "emptytext": "未定义",
+        "items": [
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList4",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "DEDATAGRID",
+                "label": "默认实体表格视图",
+                "text": "默认实体表格视图",
+                "value": "DEDATAGRID"
+            },
+            {
+                "id": "PAGELINK",
+                "label": "页面链接",
+                "text": "页面链接",
+                "value": "PAGELINK"
+            },
+            {
+                "id": "JSCODE",
+                "label": "纯JS代码",
+                "text": "纯JS代码",
+                "value": "JSCODE"
+            },
+            {
+                "id": "DEGRIDVIEW",
+                "label": "指定实体表格视图",
+                "text": "指定实体表格视图",
+                "value": "DEGRIDVIEW"
+            },
+            {
+                "id": "PAGE",
+                "label": "内置页面",
+                "text": "内置页面",
+                "value": "PAGE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList92",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "Q",
+                "label": "季度",
+                "text": "季度",
+                "value": "Q"
+            },
+            {
+                "id": "M",
+                "label": "月份",
+                "text": "月份",
+                "value": "M"
+            },
+            {
+                "id": "D",
+                "label": "月天",
+                "text": "月天",
+                "value": "D"
+            },
+            {
+                "id": "H",
+                "label": "小时",
+                "text": "小时",
+                "value": "H"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList10",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "INSERT",
+                "label": "插入",
+                "text": "插入",
+                "value": "INSERT"
+            },
+            {
+                "id": "UPDATE",
+                "label": "更新",
+                "text": "更新",
+                "value": "UPDATE"
+            },
+            {
+                "id": "DELETE",
+                "label": "删除",
+                "text": "删除",
+                "value": "DELETE"
+            },
+            {
+                "id": "SELECT",
+                "label": "简单查询",
+                "text": "简单查询",
+                "value": "SELECT"
+            },
+            {
+                "id": "CUSTOMCALL",
+                "label": "自定义",
+                "text": "自定义",
+                "value": "CUSTOMCALL"
+            },
+            {
+                "id": "CUSTOMPROCCALL",
+                "label": "自定义存储过程",
+                "text": "自定义存储过程",
+                "value": "CUSTOMPROCCALL"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList93",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "EXPAND",
+                "label": "展开",
+                "text": "展开",
+                "value": "EXPAND"
+            },
+            {
+                "id": "COLLAPSE",
+                "label": "收缩",
+                "text": "收缩",
+                "value": "COLLAPSE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList95",
+        "emptytext": "未定义",
+        "items": [
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList74",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "LEFT",
+                "label": "左对齐",
+                "text": "左对齐",
+                "value": "LEFT"
+            },
+            {
+                "id": "CENTER",
+                "label": "居中",
+                "text": "居中",
+                "value": "CENTER"
+            },
+            {
+                "id": "RIGHT",
+                "label": "右对齐",
+                "text": "右对齐",
+                "value": "RIGHT"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList42",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "TEXT",
+                "label": "纯文本",
+                "text": "纯文本",
+                "value": "TEXT"
+            },
+            {
+                "id": "HTML",
+                "label": "HTML网页",
+                "text": "HTML网页",
+                "value": "HTML"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList78",
+        "emptytext": "未定义",
+        "items": [
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList45",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "工作日",
+                "text": "工作日",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "非工作日",
+                "text": "非工作日",
+                "value": "2"
+            },
+            {
+                "id": "3",
+                "label": "自定义工作日",
+                "text": "自定义工作日",
+                "value": "3"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList94",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "STATIC",
+                "label": "静态",
+                "text": "静态",
+                "value": "STATIC"
+            },
+            {
+                "id": "DE",
+                "label": "动态（实体）",
+                "text": "动态（实体）",
+                "value": "DE"
+            },
+            {
+                "id": "CODELIST",
+                "label": "动态（代码表）",
+                "text": "动态（代码表）",
+                "value": "CODELIST"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList75",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "TOP",
+                "label": "上对齐",
+                "text": "上对齐",
+                "value": "TOP"
+            },
+            {
+                "id": "MIDDLE",
+                "label": "居中对齐",
+                "text": "居中对齐",
+                "value": "MIDDLE"
+            },
+            {
+                "id": "BOTTOM",
+                "label": "下对齐",
+                "text": "下对齐",
+                "value": "BOTTOM"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList63",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "PARAM1",
+                "label": "参数1(字符)",
+                "text": "参数1(字符)",
+                "value": "PARAM1"
+            },
+            {
+                "id": "PARAM2",
+                "label": "参数2(字符)",
+                "text": "参数2(字符)",
+                "value": "PARAM2"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList90",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "DER1N",
+                "label": "1:N关系",
+                "text": "1:N关系",
+                "value": "DER1N"
+            },
+            {
+                "id": "DERCUSTOM",
+                "label": "自定义关系",
+                "text": "自定义关系",
+                "value": "DERCUSTOM"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList40",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "MONTH",
+                "label": "月度",
+                "text": "月度",
+                "value": "MONTH"
+            },
+            {
+                "id": "SEASON",
+                "label": "季度",
+                "text": "季度",
+                "value": "SEASON"
+            },
+            {
+                "id": "WEEK",
+                "label": "周",
+                "text": "周",
+                "value": "WEEK"
+            },
+            {
+                "id": "DAY",
+                "label": "天",
+                "text": "天",
+                "value": "DAY"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList91",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "INHERIT",
+                "label": "继承模板",
+                "text": "继承模板",
+                "value": "INHERIT"
+            },
+            {
+                "id": "DEFAULT",
+                "label": "默认功能",
+                "text": "默认功能",
+                "value": "DEFAULT"
+            },
+            {
+                "id": "CUSTOM",
+                "label": "自定义",
+                "text": "自定义",
+                "value": "CUSTOM"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList38",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "START",
+                "label": "启动",
+                "text": "启动",
+                "value": "START"
+            },
+            {
+                "id": "STOP",
+                "label": "停止",
+                "text": "停止",
+                "value": "STOP"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList29",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "系统消息",
+                "text": "系统消息",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "电子邮件",
+                "text": "电子邮件",
+                "value": "2"
+            },
+            {
+                "id": "4",
+                "label": "手机短信",
+                "text": "手机短信",
+                "value": "4"
+            },
+            {
+                "id": "8",
+                "label": "MSN消息",
+                "text": "MSN消息",
+                "value": "8"
+            },
+            {
+                "id": "16",
+                "label": "检务通消息",
+                "text": "检务通消息",
+                "value": "16"
+            },
+            {
+                "id": "32",
+                "label": "微信",
+                "text": "微信",
+                "value": "32"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList2",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "VERSION",
+                "label": "版本模式",
+                "text": "版本模式",
+                "value": "VERSION"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList28",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "DROPDOWNLIST",
+                "label": "下拉列表框",
+                "text": "下拉列表框",
+                "value": "DROPDOWNLIST"
+            },
+            {
+                "id": "PICKER",
+                "label": "数据选择框",
+                "text": "数据选择框",
+                "value": "PICKER"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList1",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "VERSION",
+                "label": "版本模式",
+                "text": "版本模式",
+                "value": "VERSION"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList3",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "SESSION",
+                "label": "用户全局对象",
+                "text": "用户全局对象",
+                "value": "SESSION"
+            },
+            {
+                "id": "APPLICATION",
+                "label": "系统全局对象",
+                "text": "系统全局对象",
+                "value": "APPLICATION"
+            },
+            {
+                "id": "UNIQUEID",
+                "label": "唯一编码",
+                "text": "唯一编码",
+                "value": "UNIQUEID"
+            },
+            {
+                "id": "CONTEXT",
+                "label": "网页请求",
+                "text": "网页请求",
+                "value": "CONTEXT"
+            },
+            {
+                "id": "PARAM",
+                "label": "数据对象属性",
+                "text": "数据对象属性",
+                "value": "PARAM"
+            },
+            {
+                "id": "OPERATOR",
+                "label": "当前操作用户(编号)",
+                "text": "当前操作用户(编号)",
+                "value": "OPERATOR"
+            },
+            {
+                "id": "OPERATORNAME",
+                "label": "当前操作用户(名称)",
+                "text": "当前操作用户(名称)",
+                "value": "OPERATORNAME"
+            },
+            {
+                "id": "CURTIME",
+                "label": "当前时间",
+                "text": "当前时间",
+                "value": "CURTIME"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList5",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "USER",
+                "label": "用户",
+                "text": "用户",
+                "value": "USER"
+            },
+            {
+                "id": "USERGROUP",
+                "label": "用户组",
+                "text": "用户组",
+                "value": "USERGROUP"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_WFStates",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "0",
+                "label": "未启动",
+                "text": "未启动",
+                "value": "0"
+            },
+            {
+                "id": "1",
+                "label": "流程中",
+                "text": "流程中",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "已完成",
+                "text": "已完成",
+                "value": "2"
+            },
+            {
+                "id": "3",
+                "label": "已取消",
+                "text": "已取消",
+                "value": "3"
+            },
+            {
+                "id": "31",
+                "label": "已取消(人工)",
+                "text": "已取消(人工)",
+                "value": "31"
+            },
+            {
+                "id": "32",
+                "label": "已取消(超时)",
+                "text": "已取消(超时)",
+                "value": "32"
+            },
+            {
+                "id": "4",
+                "label": "处理故障",
+                "text": "处理故障",
+                "value": "4"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_TrueFalse",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "TRUE",
+                "label": "是",
+                "text": "是",
+                "value": "TRUE"
+            },
+            {
+                "id": "FALSE",
+                "label": "否",
+                "text": "否",
+                "value": "FALSE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList86",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "1周",
+                "text": "1周",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "2周",
+                "text": "2周",
+                "value": "2"
+            },
+            {
+                "id": "3",
+                "label": "3周",
+                "text": "3周",
+                "value": "3"
+            },
+            {
+                "id": "4",
+                "label": "4周",
+                "text": "4周",
+                "value": "4"
+            },
+            {
+                "id": "5",
+                "label": "5周",
+                "text": "5周",
+                "value": "5"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList46",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "2",
+                "label": "星期一",
+                "text": "星期一",
+                "value": "2"
+            },
+            {
+                "id": "3",
+                "label": "星期二",
+                "text": "星期二",
+                "value": "3"
+            },
+            {
+                "id": "4",
+                "label": "星期三",
+                "text": "星期三",
+                "value": "4"
+            },
+            {
+                "id": "5",
+                "label": "星期四",
+                "text": "星期四",
+                "value": "5"
+            },
+            {
+                "id": "6",
+                "label": "星期五",
+                "text": "星期五",
+                "value": "6"
+            },
+            {
+                "id": "7",
+                "label": "星期六",
+                "text": "星期六",
+                "value": "7"
+            },
+            {
+                "id": "1",
+                "label": "星期日",
+                "text": "星期日",
+                "value": "1"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_SortDir",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "ASC",
+                "label": "升序",
+                "text": "升序",
+                "value": "ASC"
+            },
+            {
+                "id": "DESC",
+                "label": "降序",
+                "text": "降序",
+                "value": "DESC"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList8",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "HIGH",
+                "label": "高",
+                "text": "高",
+                "value": "HIGH"
+            },
+            {
+                "id": "NORMAL",
+                "label": "普通",
+                "text": "普通",
+                "value": "NORMAL"
+            },
+            {
+                "id": "LOW",
+                "label": "低",
+                "text": "低",
+                "value": "LOW"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList62",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "BEFORE",
+                "label": "之前",
+                "text": "之前",
+                "value": "BEFORE"
+            },
+            {
+                "id": "AFTER",
+                "label": "之后",
+                "text": "之后",
+                "value": "AFTER"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList66",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "INSERT",
+                "label": "Insert",
+                "text": "Insert",
+                "value": "INSERT"
+            },
+            {
+                "id": "UPDATE",
+                "label": "Update",
+                "text": "Update",
+                "value": "UPDATE"
+            },
+            {
+                "id": "DELETE",
+                "label": "Delete",
+                "text": "Delete",
+                "value": "DELETE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList58",
+        "emptytext": "未定义",
+        "items": [
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList31",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "LOW",
+                "label": "低",
+                "text": "低",
+                "value": "LOW"
+            },
+            {
+                "id": "NORMAIL",
+                "label": "中",
+                "text": "中",
+                "value": "NORMAIL"
+            },
+            {
+                "id": "HIGH",
+                "label": "高",
+                "text": "高",
+                "value": "HIGH"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList52",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "NONE",
+                "label": "无表格",
+                "text": "无表格",
+                "value": "NONE"
+            },
+            {
+                "id": "TOPLEFT",
+                "label": "上左",
+                "text": "上左",
+                "value": "TOPLEFT"
+            },
+            {
+                "id": "TOP",
+                "label": "上中",
+                "text": "上中",
+                "value": "TOP"
+            },
+            {
+                "id": "TOPRIGHT",
+                "label": "上右",
+                "text": "上右",
+                "value": "TOPRIGHT"
+            },
+            {
+                "id": "BOTTOMLEFT",
+                "label": "下左",
+                "text": "下左",
+                "value": "BOTTOMLEFT"
+            },
+            {
+                "id": "BOTTOM",
+                "label": "下中",
+                "text": "下中",
+                "value": "BOTTOM"
+            },
+            {
+                "id": "BOTTOMRIGHT",
+                "label": "下右",
+                "text": "下右",
+                "value": "BOTTOMRIGHT"
+            },
+            {
+                "id": "LEFTTOP",
+                "label": "左上",
+                "text": "左上",
+                "value": "LEFTTOP"
+            },
+            {
+                "id": "LEFT",
+                "label": "左中",
+                "text": "左中",
+                "value": "LEFT"
+            },
+            {
+                "id": "LEFTBOTTOM",
+                "label": "左下",
+                "text": "左下",
+                "value": "LEFTBOTTOM"
+            },
+            {
+                "id": "RIGHTTOP",
+                "label": "右上",
+                "text": "右上",
+                "value": "RIGHTTOP"
+            },
+            {
+                "id": "RIGHT",
+                "label": "右中",
+                "text": "右中",
+                "value": "RIGHT"
+            },
+            {
+                "id": "RIGHTBOTTOM",
+                "label": "右下",
+                "text": "右下",
+                "value": "RIGHTBOTTOM"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList20",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "NUMBERORMODE",
+                "label": "数字或处理",
+                "text": "数字或处理",
+                "value": "NUMBERORMODE"
+            },
+            {
+                "id": "STRINGORMODE",
+                "label": "文本或模式",
+                "text": "文本或模式",
+                "value": "STRINGORMODE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList9",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "NUMBER",
+                "label": "数值",
+                "text": "数值",
+                "value": "NUMBER"
+            },
+            {
+                "id": "CODELIST",
+                "label": "代码表",
+                "text": "代码表",
+                "value": "CODELIST"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList108",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "INSERT",
+                "label": "新建",
+                "text": "新建",
+                "value": "INSERT"
+            },
+            {
+                "id": "UPDATE",
+                "label": "更新",
+                "text": "更新",
+                "value": "UPDATE"
+            },
+            {
+                "id": "SAVE",
+                "label": "保存（自动判断）",
+                "text": "保存（自动判断）",
+                "value": "SAVE"
+            },
+            {
+                "id": "DELETE",
+                "label": "删除",
+                "text": "删除",
+                "value": "DELETE"
+            },
+            {
+                "id": "CUSTOMCALL",
+                "label": "自定义调用",
+                "text": "自定义调用",
+                "value": "CUSTOMCALL"
+            },
+            {
+                "id": "CUSTOMPROCCALL",
+                "label": "自定义存储过程调用",
+                "text": "自定义存储过程调用",
+                "value": "CUSTOMPROCCALL"
+            },
+            {
+                "id": "CUSTOMRAWPROCCALL",
+                "label": "自定义存储过程调用（全称）",
+                "text": "自定义存储过程调用（全称）",
+                "value": "CUSTOMRAWPROCCALL"
+            },
+            {
+                "id": "GET",
+                "label": "获取(GET)",
+                "text": "获取(GET)",
+                "value": "GET"
+            },
+            {
+                "id": "CHECKKEYSTATE",
+                "label": "检查主键状态(CHECKKEYSTATE)",
+                "text": "检查主键状态(CHECKKEYSTATE)",
+                "value": "CHECKKEYSTATE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList117",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "PODBACTION",
+                "label": "数据库操作性能",
+                "text": "数据库操作性能",
+                "value": "PODBACTION"
+            },
+            {
+                "id": "PODBQUERY",
+                "label": "数据库查询性能",
+                "text": "数据库查询性能",
+                "value": "PODBQUERY"
+            },
+            {
+                "id": "PODEDC",
+                "label": "实体处理逻辑性能",
+                "text": "实体处理逻辑性能",
+                "value": "PODEDC"
+            },
+            {
+                "id": "POWORKFLOW",
+                "label": "工作流性能",
+                "text": "工作流性能",
+                "value": "POWORKFLOW"
+            },
+            {
+                "id": "POPAGE",
+                "label": "页面性能",
+                "text": "页面性能",
+                "value": "POPAGE"
+            },
+            {
+                "id": "POPAGEBACKEND",
+                "label": "页面性能(后台)",
+                "text": "页面性能(后台)",
+                "value": "POPAGEBACKEND"
+            },
+            {
+                "id": "POPAGESESSION",
+                "label": "并发性能",
+                "text": "并发性能",
+                "value": "POPAGESESSION"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList36",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "框架基本",
+                "text": "框架基本",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "框架高级",
+                "text": "框架高级",
+                "value": "2"
+            },
+            {
+                "id": "4",
+                "label": "工作流",
+                "text": "工作流",
+                "value": "4"
+            },
+            {
+                "id": "8",
+                "label": "EAI",
+                "text": "EAI",
+                "value": "8"
+            },
+            {
+                "id": "16",
+                "label": "UAC",
+                "text": "UAC",
+                "value": "16"
+            },
+            {
+                "id": "32",
+                "label": "全文检索",
+                "text": "全文检索",
+                "value": "32"
+            },
+            {
+                "id": "64",
+                "label": "数据分析",
+                "text": "数据分析",
+                "value": "64"
+            },
+            {
+                "id": "128",
+                "label": "基础网盘",
+                "text": "基础网盘",
+                "value": "128"
+            },
+            {
+                "id": "256",
+                "label": "基础组织",
+                "text": "基础组织",
+                "value": "256"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList35",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "0",
+                "label": "正确(0)",
+                "text": "正确(0)",
+                "value": "0"
+            },
+            {
+                "id": "1",
+                "label": "内部发生错误(INTERNALERROR)",
+                "text": "内部发生错误(INTERNALERROR)",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "访问被拒绝(ACCESSDENY)",
+                "text": "访问被拒绝(ACCESSDENY)",
+                "value": "2"
+            },
+            {
+                "id": "3",
+                "label": "无效的数据(INVALIDDATA)",
+                "text": "无效的数据(INVALIDDATA)",
+                "value": "3"
+            },
+            {
+                "id": "4",
+                "label": "无效的数据键(INVALIDDATAKEYS)",
+                "text": "无效的数据键(INVALIDDATAKEYS)",
+                "value": "4"
+            },
+            {
+                "id": "5",
+                "label": "输入的信息有误(INPUTERROR)",
+                "text": "输入的信息有误(INPUTERROR)",
+                "value": "5"
+            },
+            {
+                "id": "6",
+                "label": "重复的数据键值(DUPLICATEKEY)",
+                "text": "重复的数据键值(DUPLICATEKEY)",
+                "value": "6"
+            },
+            {
+                "id": "7",
+                "label": "重复的数据(DUPLICATEDATA)",
+                "text": "重复的数据(DUPLICATEDATA)",
+                "value": "7"
+            },
+            {
+                "id": "8",
+                "label": "删除拒绝(DELETEREJECT)",
+                "text": "删除拒绝(DELETEREJECT)",
+                "value": "8"
+            },
+            {
+                "id": "9",
+                "label": "逻辑处理错误(LOGICERROR)",
+                "text": "逻辑处理错误(LOGICERROR)",
+                "value": "9"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList19",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "SRFDA",
+                "label": "系统",
+                "text": "系统",
+                "value": "SRFDA"
+            },
+            {
+                "id": "APPLICATION",
+                "label": "应用",
+                "text": "应用",
+                "value": "APPLICATION"
+            },
+            {
+                "id": "USER",
+                "label": "用户",
+                "text": "用户",
+                "value": "USER"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList70",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "AFTERINITPAGEPARAM",
+                "label": "页面变量初始化之后",
+                "text": "页面变量初始化之后",
+                "value": "AFTERINITPAGEPARAM"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList106",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "GETDEFAULT",
+                "label": "获取默认值",
+                "text": "获取默认值",
+                "value": "GETDEFAULT"
+            },
+            {
+                "id": "BEFORESAVE",
+                "label": "保存之前",
+                "text": "保存之前",
+                "value": "BEFORESAVE"
+            },
+            {
+                "id": "AFTERSAVE",
+                "label": "保存之后",
+                "text": "保存之后",
+                "value": "AFTERSAVE"
+            },
+            {
+                "id": "BEFOREREMOVE",
+                "label": "删除之前",
+                "text": "删除之前",
+                "value": "BEFOREREMOVE"
+            },
+            {
+                "id": "AFTERREMOVE",
+                "label": "删除之后",
+                "text": "删除之后",
+                "value": "AFTERREMOVE"
+            },
+            {
+                "id": "TESTSAVE",
+                "label": "测试保存",
+                "text": "测试保存",
+                "value": "TESTSAVE"
+            },
+            {
+                "id": "CUSTOMCALL",
+                "label": "自定义操作",
+                "text": "自定义操作",
+                "value": "CUSTOMCALL"
+            },
+            {
+                "id": "INTERNALCALL",
+                "label": "内部调用",
+                "text": "内部调用",
+                "value": "INTERNALCALL"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList81",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "2010",
+                "label": "2010年",
+                "text": "2010年",
+                "value": "2010"
+            },
+            {
+                "id": "2011",
+                "label": "2011年",
+                "text": "2011年",
+                "value": "2011"
+            },
+            {
+                "id": "2012",
+                "label": "2012年",
+                "text": "2012年",
+                "value": "2012"
+            },
+            {
+                "id": "2013",
+                "label": "2013年",
+                "text": "2013年",
+                "value": "2013"
+            },
+            {
+                "id": "2014",
+                "label": "2014年",
+                "text": "2014年",
+                "value": "2014"
+            },
+            {
+                "id": "2015",
+                "label": "2015年",
+                "text": "2015年",
+                "value": "2015"
+            },
+            {
+                "id": "2016",
+                "label": "2016年",
+                "text": "2016年",
+                "value": "2016"
+            },
+            {
+                "id": "2017",
+                "label": "2017年",
+                "text": "2017年",
+                "value": "2017"
+            },
+            {
+                "id": "2018",
+                "label": "2018年",
+                "text": "2018年",
+                "value": "2018"
+            },
+            {
+                "id": "2019",
+                "label": "2019年",
+                "text": "2019年",
+                "value": "2019"
+            },
+            {
+                "id": "2020",
+                "label": "2020年",
+                "text": "2020年",
+                "value": "2020"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList17",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "NONE",
+                "label": "无资源",
+                "text": "无资源",
+                "value": "NONE"
+            },
+            {
+                "id": "DEDATA",
+                "label": "数据操作",
+                "text": "数据操作",
+                "value": "DEDATA"
+            },
+            {
+                "id": "PAGE",
+                "label": "页面对象",
+                "text": "页面对象",
+                "value": "PAGE"
+            },
+            {
+                "id": "CUSTOM",
+                "label": "自定义",
+                "text": "自定义",
+                "value": "CUSTOM"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList89",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "INSERT",
+                "label": "插入",
+                "text": "插入",
+                "value": "INSERT"
+            },
+            {
+                "id": "UPDATE",
+                "label": "更新",
+                "text": "更新",
+                "value": "UPDATE"
+            },
+            {
+                "id": "DELETE",
+                "label": "删除",
+                "text": "删除",
+                "value": "DELETE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList109",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "%DEFAULT%",
+                "label": "默认变量",
+                "text": "默认变量",
+                "value": "%DEFAULT%"
+            },
+            {
+                "id": "%ENV%",
+                "label": "环境变量",
+                "text": "环境变量",
+                "value": "%ENV%"
+            },
+            {
+                "id": "PARAM1",
+                "label": "变量1",
+                "text": "变量1",
+                "value": "PARAM1"
+            },
+            {
+                "id": "PARAM2",
+                "label": "变量2",
+                "text": "变量2",
+                "value": "PARAM2"
+            },
+            {
+                "id": "PARAM3",
+                "label": "变量3",
+                "text": "变量3",
+                "value": "PARAM3"
+            },
+            {
+                "id": "PARAM4",
+                "label": "变量4",
+                "text": "变量4",
+                "value": "PARAM4"
+            },
+            {
+                "id": "PARAM5",
+                "label": "变量5",
+                "text": "变量5",
+                "value": "PARAM5"
+            },
+            {
+                "id": "%LAST%",
+                "label": "历史值",
+                "text": "历史值",
+                "value": "%LAST%"
+            },
+            {
+                "id": "%GLOBAL1%",
+                "label": "全局变量1",
+                "text": "全局变量1",
+                "value": "%GLOBAL1%"
+            },
+            {
+                "id": "%GLOBAL2%",
+                "label": "全局变量2",
+                "text": "全局变量2",
+                "value": "%GLOBAL2%"
+            },
+            {
+                "id": "%GLOBAL3%",
+                "label": "全局变量3",
+                "text": "全局变量3",
+                "value": "%GLOBAL3%"
+            },
+            {
+                "id": "%GLOBAL4%",
+                "label": "全局变量4",
+                "text": "全局变量4",
+                "value": "%GLOBAL4%"
+            },
+            {
+                "id": "%GLOBAL5%",
+                "label": "全局变量5",
+                "text": "全局变量5",
+                "value": "%GLOBAL5%"
+            },
+            {
+                "id": "%BRINST%",
+                "label": "全局规则引擎实例变量",
+                "text": "全局规则引擎实例变量",
+                "value": "%BRINST%"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList76",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "LEFT",
+                "label": "左边框",
+                "text": "左边框",
+                "value": "LEFT"
+            },
+            {
+                "id": "TOP",
+                "label": "上边框",
+                "text": "上边框",
+                "value": "TOP"
+            },
+            {
+                "id": "RIGHT",
+                "label": "右边框",
+                "text": "右边框",
+                "value": "RIGHT"
+            },
+            {
+                "id": "BOTTOM",
+                "label": "下边框",
+                "text": "下边框",
+                "value": "BOTTOM"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList98",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "新建",
+                "text": "新建",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "更新",
+                "text": "更新",
+                "value": "2"
+            },
+            {
+                "id": "4",
+                "label": "删除",
+                "text": "删除",
+                "value": "4"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList80",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "STATIC",
+                "label": "静态存储",
+                "text": "静态存储",
+                "value": "STATIC"
+            },
+            {
+                "id": "DYNAMIC",
+                "label": "动态存储",
+                "text": "动态存储",
+                "value": "DYNAMIC"
+            },
+            {
+                "id": "NONE",
+                "label": "无存储",
+                "text": "无存储",
+                "value": "NONE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList83",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "1季度",
+                "text": "1季度",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "2季度",
+                "text": "2季度",
+                "value": "2"
+            },
+            {
+                "id": "3",
+                "label": "3季度",
+                "text": "3季度",
+                "value": "3"
+            },
+            {
+                "id": "4",
+                "label": "4季度",
+                "text": "4季度",
+                "value": "4"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList69",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "AFTER",
+                "label": "变更后",
+                "text": "变更后",
+                "value": "AFTER"
+            },
+            {
+                "id": "BEFORE",
+                "label": "变更前",
+                "text": "变更前",
+                "value": "BEFORE"
+            },
+            {
+                "id": "CHANGE",
+                "label": "值变更",
+                "text": "值变更",
+                "value": "CHANGE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList71",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "无建立",
+                "text": "无建立",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "无更新",
+                "text": "无更新",
+                "value": "2"
+            },
+            {
+                "id": "4",
+                "label": "无删除",
+                "text": "无删除",
+                "value": "4"
+            },
+            {
+                "id": "8",
+                "label": "无查看",
+                "text": "无查看",
+                "value": "8"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList49",
+        "emptytext": "未定义",
+        "items": [
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList6",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "CHART",
+                "label": "图形部件",
+                "text": "图形部件",
+                "value": "CHART"
+            },
+            {
+                "id": "LIST",
+                "label": "列表",
+                "text": "列表",
+                "value": "LIST"
+            },
+            {
+                "id": "CUSTOMWP",
+                "label": "自定义",
+                "text": "自定义",
+                "value": "CUSTOMWP"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList99",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "01",
+                "label": "汉",
+                "text": "汉",
+                "value": "01"
+            },
+            {
+                "id": "02",
+                "label": "蒙古",
+                "text": "蒙古",
+                "value": "02"
+            },
+            {
+                "id": "03",
+                "label": "回",
+                "text": "回",
+                "value": "03"
+            },
+            {
+                "id": "04",
+                "label": "藏",
+                "text": "藏",
+                "value": "04"
+            },
+            {
+                "id": "05",
+                "label": "维吾尔",
+                "text": "维吾尔",
+                "value": "05"
+            },
+            {
+                "id": "06",
+                "label": "苗",
+                "text": "苗",
+                "value": "06"
+            },
+            {
+                "id": "07",
+                "label": "彝",
+                "text": "彝",
+                "value": "07"
+            },
+            {
+                "id": "08",
+                "label": "壮",
+                "text": "壮",
+                "value": "08"
+            },
+            {
+                "id": "09",
+                "label": "布依",
+                "text": "布依",
+                "value": "09"
+            },
+            {
+                "id": "10",
+                "label": "朝鲜",
+                "text": "朝鲜",
+                "value": "10"
+            },
+            {
+                "id": "11",
+                "label": "满",
+                "text": "满",
+                "value": "11"
+            },
+            {
+                "id": "12",
+                "label": "侗",
+                "text": "侗",
+                "value": "12"
+            },
+            {
+                "id": "13",
+                "label": "瑶",
+                "text": "瑶",
+                "value": "13"
+            },
+            {
+                "id": "14",
+                "label": "白",
+                "text": "白",
+                "value": "14"
+            },
+            {
+                "id": "15",
+                "label": "土家",
+                "text": "土家",
+                "value": "15"
+            },
+            {
+                "id": "16",
+                "label": "哈尼",
+                "text": "哈尼",
+                "value": "16"
+            },
+            {
+                "id": "17",
+                "label": "哈萨克",
+                "text": "哈萨克",
+                "value": "17"
+            },
+            {
+                "id": "18",
+                "label": "傣",
+                "text": "傣",
+                "value": "18"
+            },
+            {
+                "id": "19",
+                "label": "黎",
+                "text": "黎",
+                "value": "19"
+            },
+            {
+                "id": "20",
+                "label": "傈僳",
+                "text": "傈僳",
+                "value": "20"
+            },
+            {
+                "id": "21",
+                "label": "佤",
+                "text": "佤",
+                "value": "21"
+            },
+            {
+                "id": "22",
+                "label": "畲",
+                "text": "畲",
+                "value": "22"
+            },
+            {
+                "id": "23",
+                "label": "高山",
+                "text": "高山",
+                "value": "23"
+            },
+            {
+                "id": "24",
+                "label": "拉祜",
+                "text": "拉祜",
+                "value": "24"
+            },
+            {
+                "id": "25",
+                "label": "水",
+                "text": "水",
+                "value": "25"
+            },
+            {
+                "id": "26",
+                "label": "东乡",
+                "text": "东乡",
+                "value": "26"
+            },
+            {
+                "id": "27",
+                "label": "纳西",
+                "text": "纳西",
+                "value": "27"
+            },
+            {
+                "id": "28",
+                "label": "景颇",
+                "text": "景颇",
+                "value": "28"
+            },
+            {
+                "id": "29",
+                "label": "柯尔克孜",
+                "text": "柯尔克孜",
+                "value": "29"
+            },
+            {
+                "id": "30",
+                "label": "土",
+                "text": "土",
+                "value": "30"
+            },
+            {
+                "id": "31",
+                "label": "达斡尔",
+                "text": "达斡尔",
+                "value": "31"
+            },
+            {
+                "id": "32",
+                "label": "仫佬",
+                "text": "仫佬",
+                "value": "32"
+            },
+            {
+                "id": "33",
+                "label": "羌",
+                "text": "羌",
+                "value": "33"
+            },
+            {
+                "id": "34",
+                "label": "布朗",
+                "text": "布朗",
+                "value": "34"
+            },
+            {
+                "id": "35",
+                "label": "撒拉",
+                "text": "撒拉",
+                "value": "35"
+            },
+            {
+                "id": "36",
+                "label": "毛南",
+                "text": "毛南",
+                "value": "36"
+            },
+            {
+                "id": "37",
+                "label": "仡佬",
+                "text": "仡佬",
+                "value": "37"
+            },
+            {
+                "id": "38",
+                "label": "锡伯",
+                "text": "锡伯",
+                "value": "38"
+            },
+            {
+                "id": "39",
+                "label": "阿昌",
+                "text": "阿昌",
+                "value": "39"
+            },
+            {
+                "id": "40",
+                "label": "普米",
+                "text": "普米",
+                "value": "40"
+            },
+            {
+                "id": "41",
+                "label": "塔吉克",
+                "text": "塔吉克",
+                "value": "41"
+            },
+            {
+                "id": "42",
+                "label": "怒",
+                "text": "怒",
+                "value": "42"
+            },
+            {
+                "id": "43",
+                "label": "乌孜别克",
+                "text": "乌孜别克",
+                "value": "43"
+            },
+            {
+                "id": "44",
+                "label": "俄罗斯",
+                "text": "俄罗斯",
+                "value": "44"
+            },
+            {
+                "id": "45",
+                "label": "鄂温克",
+                "text": "鄂温克",
+                "value": "45"
+            },
+            {
+                "id": "46",
+                "label": "德昂",
+                "text": "德昂",
+                "value": "46"
+            },
+            {
+                "id": "47",
+                "label": "保安",
+                "text": "保安",
+                "value": "47"
+            },
+            {
+                "id": "48",
+                "label": "裕固",
+                "text": "裕固",
+                "value": "48"
+            },
+            {
+                "id": "49",
+                "label": "京",
+                "text": "京",
+                "value": "49"
+            },
+            {
+                "id": "50",
+                "label": "塔塔尔",
+                "text": "塔塔尔",
+                "value": "50"
+            },
+            {
+                "id": "51",
+                "label": "独龙",
+                "text": "独龙",
+                "value": "51"
+            },
+            {
+                "id": "52",
+                "label": "鄂伦春",
+                "text": "鄂伦春",
+                "value": "52"
+            },
+            {
+                "id": "53",
+                "label": "赫哲",
+                "text": "赫哲",
+                "value": "53"
+            },
+            {
+                "id": "54",
+                "label": "门巴",
+                "text": "门巴",
+                "value": "54"
+            },
+            {
+                "id": "55",
+                "label": "珞巴",
+                "text": "珞巴",
+                "value": "55"
+            },
+            {
+                "id": "56",
+                "label": "基诺",
+                "text": "基诺",
+                "value": "56"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList77",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "INSERT",
+                "label": "新建",
+                "text": "新建",
+                "value": "INSERT"
+            },
+            {
+                "id": "UPDATE",
+                "label": "更新",
+                "text": "更新",
+                "value": "UPDATE"
+            },
+            {
+                "id": "DELETE",
+                "label": "删除",
+                "text": "删除",
+                "value": "DELETE"
+            },
+            {
+                "id": "ROWEDIT",
+                "label": "启用行编辑",
+                "text": "启用行编辑",
+                "value": "ROWEDIT"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList60",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "LIKE",
+                "label": "LIKE大小写敏感",
+                "text": "LIKE大小写敏感",
+                "value": "LIKE"
+            },
+            {
+                "id": "=",
+                "label": "=（含其它）大小写敏感",
+                "text": "=（含其它）大小写敏感",
+                "value": "="
+            },
+            {
+                "id": "LIKESPLIT",
+                "label": "LIKE分解",
+                "text": "LIKE分解",
+                "value": "LIKESPLIT"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList111",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "=",
+                "label": "等于",
+                "text": "等于",
+                "value": "="
+            },
+            {
+                "id": "<>",
+                "label": "不等于",
+                "text": "不等于",
+                "value": "<>"
+            },
+            {
+                "id": ">=",
+                "label": "大于等于",
+                "text": "大于等于",
+                "value": ">="
+            },
+            {
+                "id": ">",
+                "label": "大于",
+                "text": "大于",
+                "value": ">"
+            },
+            {
+                "id": "<=",
+                "label": "小于等于",
+                "text": "小于等于",
+                "value": "<="
+            },
+            {
+                "id": "<",
+                "label": "小于",
+                "text": "小于",
+                "value": "<"
+            },
+            {
+                "id": "LIKE",
+                "label": "文本匹配",
+                "text": "文本匹配",
+                "value": "LIKE"
+            },
+            {
+                "id": "ISNULL",
+                "label": "为空",
+                "text": "为空",
+                "value": "ISNULL"
+            },
+            {
+                "id": "ISNOTNULL",
+                "label": "不为空",
+                "text": "不为空",
+                "value": "ISNOTNULL"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList34",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "LOGICVALID",
+                "label": "逻辑有效标识",
+                "text": "逻辑有效标识",
+                "value": "LOGICVALID"
+            },
+            {
+                "id": "CREATEMAN",
+                "label": "建立人",
+                "text": "建立人",
+                "value": "CREATEMAN"
+            },
+            {
+                "id": "CREATEDATE",
+                "label": "建立时间",
+                "text": "建立时间",
+                "value": "CREATEDATE"
+            },
+            {
+                "id": "UPDATEMAN",
+                "label": "更新人",
+                "text": "更新人",
+                "value": "UPDATEMAN"
+            },
+            {
+                "id": "UPDATEDATE",
+                "label": "更新时间",
+                "text": "更新时间",
+                "value": "UPDATEDATE"
+            },
+            {
+                "id": "ORGUNITID",
+                "label": "组织单元标识",
+                "text": "组织单元标识",
+                "value": "ORGUNITID"
+            },
+            {
+                "id": "ORGUNITNAME",
+                "label": "组织单元名称",
+                "text": "组织单元名称",
+                "value": "ORGUNITNAME"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList21",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "同时删除",
+                "text": "同时删除",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "置空",
+                "text": "置空",
+                "value": "2"
+            },
+            {
+                "id": "3",
+                "label": "限制删除",
+                "text": "限制删除",
+                "value": "3"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList53",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "INSERT",
+                "label": "插入",
+                "text": "插入",
+                "value": "INSERT"
+            },
+            {
+                "id": "UPDATE",
+                "label": "更新",
+                "text": "更新",
+                "value": "UPDATE"
+            },
+            {
+                "id": "SELECT",
+                "label": "查询",
+                "text": "查询",
+                "value": "SELECT"
+            },
+            {
+                "id": "DELETE",
+                "label": "删除",
+                "text": "删除",
+                "value": "DELETE"
+            },
+            {
+                "id": "CUSTOM",
+                "label": "自定义",
+                "text": "自定义",
+                "value": "CUSTOM"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList18",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "left",
+                "label": "左对齐",
+                "text": "左对齐",
+                "value": "left"
+            },
+            {
+                "id": "center",
+                "label": "剧中",
+                "text": "剧中",
+                "value": "center"
+            },
+            {
+                "id": "right",
+                "label": "右对齐",
+                "text": "右对齐",
+                "value": "right"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList54",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "PDF",
+                "label": "PDF",
+                "text": "PDF",
+                "value": "PDF"
+            },
+            {
+                "id": "EXCEL",
+                "label": "EXCEL",
+                "text": "EXCEL",
+                "value": "EXCEL"
+            },
+            {
+                "id": "HTML",
+                "label": "HTML",
+                "text": "HTML",
+                "value": "HTML"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList103",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "CARETTEMPLGROUP_SRFDA_DEDCCONTEXT",
+                "label": "实体处理逻辑引擎",
+                "text": "实体处理逻辑引擎",
+                "value": "CARETTEMPLGROUP_SRFDA_DEDCCONTEXT"
+            },
+            {
+                "id": "CARETTEMPLGROUP_SRFDA_DEACTION",
+                "label": "实体属性操作",
+                "text": "实体属性操作",
+                "value": "CARETTEMPLGROUP_SRFDA_DEACTION"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList50",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "是",
+                "text": "是",
+                "value": "1"
+            },
+            {
+                "id": "0",
+                "label": "否",
+                "text": "否",
+                "value": "0"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList39",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "ANSI",
+                "label": "ANSI",
+                "text": "ANSI",
+                "value": "ANSI"
+            },
+            {
+                "id": "UTF-8",
+                "label": "UTF-8",
+                "text": "UTF-8",
+                "value": "UTF-8"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList72",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "新建",
+                "text": "新建",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "更新",
+                "text": "更新",
+                "value": "2"
+            },
+            {
+                "id": "3",
+                "label": "新建或更新",
+                "text": "新建或更新",
+                "value": "3"
+            },
+            {
+                "id": "4",
+                "label": "删除",
+                "text": "删除",
+                "value": "4"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList68",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "TABLE",
+                "label": "主表",
+                "text": "主表",
+                "value": "TABLE"
+            },
+            {
+                "id": "VIEW",
+                "label": "视图",
+                "text": "视图",
+                "value": "VIEW"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList82",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "01",
+                "label": "1月",
+                "text": "1月",
+                "value": "01"
+            },
+            {
+                "id": "02",
+                "label": "2月",
+                "text": "2月",
+                "value": "02"
+            },
+            {
+                "id": "03",
+                "label": "3月",
+                "text": "3月",
+                "value": "03"
+            },
+            {
+                "id": "04",
+                "label": "4月",
+                "text": "4月",
+                "value": "04"
+            },
+            {
+                "id": "05",
+                "label": "5月",
+                "text": "5月",
+                "value": "05"
+            },
+            {
+                "id": "06",
+                "label": "6月",
+                "text": "6月",
+                "value": "06"
+            },
+            {
+                "id": "07",
+                "label": "7月",
+                "text": "7月",
+                "value": "07"
+            },
+            {
+                "id": "08",
+                "label": "8月",
+                "text": "8月",
+                "value": "08"
+            },
+            {
+                "id": "09",
+                "label": "9月",
+                "text": "9月",
+                "value": "09"
+            },
+            {
+                "id": "10",
+                "label": "10月",
+                "text": "10月",
+                "value": "10"
+            },
+            {
+                "id": "11",
+                "label": "11月",
+                "text": "11月",
+                "value": "11"
+            },
+            {
+                "id": "12",
+                "label": "12月",
+                "text": "12月",
+                "value": "12"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList64",
+        "emptytext": "未定义",
+        "items": [
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList32",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "50000",
+                "label": "致命(FATAL)",
+                "text": "致命(FATAL)",
+                "value": "50000"
+            },
+            {
+                "id": "40000",
+                "label": "错误(ERROR)",
+                "text": "错误(ERROR)",
+                "value": "40000"
+            },
+            {
+                "id": "30000",
+                "label": "警告(WARN)",
+                "text": "警告(WARN)",
+                "value": "30000"
+            },
+            {
+                "id": "20000",
+                "label": "信息(INFO)",
+                "text": "信息(INFO)",
+                "value": "20000"
+            },
+            {
+                "id": "10000",
+                "label": "调试(DEBUG)",
+                "text": "调试(DEBUG)",
+                "value": "10000"
+            },
+            {
+                "id": "5000",
+                "label": "调试(TRACE)",
+                "text": "调试(TRACE)",
+                "value": "5000"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList100",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "CARETTEMPLGROUP_SRFDA_PAGEPARAM",
+                "label": "常规页面参数",
+                "text": "常规页面参数",
+                "value": "CARETTEMPLGROUP_SRFDA_PAGEPARAM"
+            },
+            {
+                "id": "CARETTEMPLGROUP_SRFDA_GRIDVIEWPAGEPARAM",
+                "label": "表格页面参数",
+                "text": "表格页面参数",
+                "value": "CARETTEMPLGROUP_SRFDA_GRIDVIEWPAGEPARAM"
+            },
+            {
+                "id": "CARETTEMPLGROUP_SRFDA_EDITVIEWPAGEPARAM",
+                "label": "编辑页面参数",
+                "text": "编辑页面参数",
+                "value": "CARETTEMPLGROUP_SRFDA_EDITVIEWPAGEPARAM"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_YesNo",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "是",
+                "text": "是",
+                "value": "1"
+            },
+            {
+                "id": "0",
+                "label": "否",
+                "text": "否",
+                "value": "0"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList61",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "TIME",
+                "label": "定时",
+                "text": "定时",
+                "value": "TIME"
+            },
+            {
+                "id": "NORMAL",
+                "label": "值变更",
+                "text": "值变更",
+                "value": "NORMAL"
+            },
+            {
+                "id": "TIMEEX",
+                "label": "定时+值判断",
+                "text": "定时+值判断",
+                "value": "TIMEEX"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList107",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "CREATENEW",
+                "label": "新建数据对象",
+                "text": "新建数据对象",
+                "value": "CREATENEW"
+            },
+            {
+                "id": "CREATEFROM",
+                "label": "拷贝新建数据对象",
+                "text": "拷贝新建数据对象",
+                "value": "CREATEFROM"
+            },
+            {
+                "id": "COPY",
+                "label": "拷贝数据对象",
+                "text": "拷贝数据对象",
+                "value": "COPY"
+            },
+            {
+                "id": "COPYRESET",
+                "label": "拷贝数据对象(重置)",
+                "text": "拷贝数据对象(重置)",
+                "value": "COPYRESET"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList115",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "CHECKIN",
+                "label": "签入",
+                "text": "签入",
+                "value": "CHECKIN"
+            },
+            {
+                "id": "CHECKOUT",
+                "label": "签出",
+                "text": "签出",
+                "value": "CHECKOUT"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList14",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "PAGE",
+                "label": "内建页面",
+                "text": "内建页面",
+                "value": "PAGE"
+            },
+            {
+                "id": "PAGEPATH",
+                "label": "页面路径",
+                "text": "页面路径",
+                "value": "PAGEPATH"
+            },
+            {
+                "id": "DER1N",
+                "label": "1:N关系",
+                "text": "1:N关系",
+                "value": "DER1N"
+            },
+            {
+                "id": "DER11",
+                "label": "1:1关系",
+                "text": "1:1关系",
+                "value": "DER11"
+            },
+            {
+                "id": "WFSTEP",
+                "label": "工作流处理步骤",
+                "text": "工作流处理步骤",
+                "value": "WFSTEP"
+            },
+            {
+                "id": "WFSTEPACTOR",
+                "label": "工作流当前处理用户",
+                "text": "工作流当前处理用户",
+                "value": "WFSTEPACTOR"
+            },
+            {
+                "id": "FILELIST",
+                "label": "附件列表",
+                "text": "附件列表",
+                "value": "FILELIST"
+            },
+            {
+                "id": "DATAAUDIT",
+                "label": "行为审计",
+                "text": "行为审计",
+                "value": "DATAAUDIT"
+            },
+            {
+                "id": "DERTYPE",
+                "label": "实体关系分组",
+                "text": "实体关系分组",
+                "value": "DERTYPE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList15",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "UNDECIDED",
+                "label": "未确定",
+                "text": "未确定",
+                "value": "UNDECIDED"
+            },
+            {
+                "id": "ACCEPT",
+                "label": "接受",
+                "text": "接受",
+                "value": "ACCEPT"
+            },
+            {
+                "id": "REJECT",
+                "label": "拒绝",
+                "text": "拒绝",
+                "value": "REJECT"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList13",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "INT",
+                "label": "整数",
+                "text": "整数",
+                "value": "INT"
+            },
+            {
+                "id": "POSITIVEINT",
+                "label": "正整数",
+                "text": "正整数",
+                "value": "POSITIVEINT"
+            },
+            {
+                "id": "STRING",
+                "label": "字符串",
+                "text": "字符串",
+                "value": "STRING"
+            },
+            {
+                "id": "STRING_EMAIL",
+                "label": "电子邮件",
+                "text": "电子邮件",
+                "value": "STRING_EMAIL"
+            },
+            {
+                "id": "FLOAT",
+                "label": "浮点数",
+                "text": "浮点数",
+                "value": "FLOAT"
+            },
+            {
+                "id": "FLOAT_PERCENT",
+                "label": "百分比数值(0~100)",
+                "text": "百分比数值(0~100)",
+                "value": "FLOAT_PERCENT"
+            },
+            {
+                "id": "DATETIME",
+                "label": "日期时间",
+                "text": "日期时间",
+                "value": "DATETIME"
+            },
+            {
+                "id": "DATETIME_GTNOW",
+                "label": "大于当天时间",
+                "text": "大于当天时间",
+                "value": "DATETIME_GTNOW"
+            },
+            {
+                "id": "DATETIME_GTNOWNOHOUR",
+                "label": "大于当天日期",
+                "text": "大于当天日期",
+                "value": "DATETIME_GTNOWNOHOUR"
+            },
+            {
+                "id": "DATETIME_GTNOW3DAY",
+                "label": "后3天",
+                "text": "后3天",
+                "value": "DATETIME_GTNOW3DAY"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList59",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "Etc/GMT+12",
+                "label": "(UTC-12:00)GMT-12:00",
+                "text": "(UTC-12:00)GMT-12:00",
+                "value": "Etc/GMT+12"
+            },
+            {
+                "id": "Etc/GMT+11",
+                "label": "(UTC-11:00)GMT-11:00",
+                "text": "(UTC-11:00)GMT-11:00",
+                "value": "Etc/GMT+11"
+            },
+            {
+                "id": "MIT",
+                "label": "(UTC-11:00)West Samoa Time",
+                "text": "(UTC-11:00)West Samoa Time",
+                "value": "MIT"
+            },
+            {
+                "id": "Pacific/Midway",
+                "label": "(UTC-11:00)Samoa Standard Time",
+                "text": "(UTC-11:00)Samoa Standard Time",
+                "value": "Pacific/Midway"
+            },
+            {
+                "id": "Pacific/Niue",
+                "label": "(UTC-11:00)Niue Time",
+                "text": "(UTC-11:00)Niue Time",
+                "value": "Pacific/Niue"
+            },
+            {
+                "id": "America/Adak",
+                "label": "(UTC-10:00)Hawaii-Aleutian Standard Time",
+                "text": "(UTC-10:00)Hawaii-Aleutian Standard Time",
+                "value": "America/Adak"
+            },
+            {
+                "id": "Etc/GMT+10",
+                "label": "(UTC-10:00)GMT-10:00",
+                "text": "(UTC-10:00)GMT-10:00",
+                "value": "Etc/GMT+10"
+            },
+            {
+                "id": "HST",
+                "label": "(UTC-10:00)Hawaii Standard Time",
+                "text": "(UTC-10:00)Hawaii Standard Time",
+                "value": "HST"
+            },
+            {
+                "id": "Pacific/Fakaofo",
+                "label": "(UTC-10:00)Tokelau Time",
+                "text": "(UTC-10:00)Tokelau Time",
+                "value": "Pacific/Fakaofo"
+            },
+            {
+                "id": "Pacific/Rarotonga",
+                "label": "(UTC-10:00)Cook Is. Time",
+                "text": "(UTC-10:00)Cook Is. Time",
+                "value": "Pacific/Rarotonga"
+            },
+            {
+                "id": "Pacific/Tahiti",
+                "label": "(UTC-10:00)Tahiti Time",
+                "text": "(UTC-10:00)Tahiti Time",
+                "value": "Pacific/Tahiti"
+            },
+            {
+                "id": "Pacific/Marquesas",
+                "label": "(UTC-9:00)Marquesas Time",
+                "text": "(UTC-9:00)Marquesas Time",
+                "value": "Pacific/Marquesas"
+            },
+            {
+                "id": "AST",
+                "label": "(UTC-9:00)Alaska Standard Time",
+                "text": "(UTC-9:00)Alaska Standard Time",
+                "value": "AST"
+            },
+            {
+                "id": "Etc/GMT+9",
+                "label": "(UTC-9:00)GMT-09:00",
+                "text": "(UTC-9:00)GMT-09:00",
+                "value": "Etc/GMT+9"
+            },
+            {
+                "id": "Pacific/Gambier",
+                "label": "(UTC-9:00)Gambier Time",
+                "text": "(UTC-9:00)Gambier Time",
+                "value": "Pacific/Gambier"
+            },
+            {
+                "id": "America/Dawson",
+                "label": "(UTC-8:00)Pacific Standard Time",
+                "text": "(UTC-8:00)Pacific Standard Time",
+                "value": "America/Dawson"
+            },
+            {
+                "id": "Etc/GMT+8",
+                "label": "(UTC-8:00)GMT-08:00",
+                "text": "(UTC-8:00)GMT-08:00",
+                "value": "Etc/GMT+8"
+            },
+            {
+                "id": "Pacific/Pitcairn",
+                "label": "(UTC-8:00)Pitcairn Standard Time",
+                "text": "(UTC-8:00)Pitcairn Standard Time",
+                "value": "Pacific/Pitcairn"
+            },
+            {
+                "id": "America/Boise",
+                "label": "(UTC-7:00)Mountain Standard Time",
+                "text": "(UTC-7:00)Mountain Standard Time",
+                "value": "America/Boise"
+            },
+            {
+                "id": "Etc/GMT+7",
+                "label": "(UTC-7:00)GMT-07:00",
+                "text": "(UTC-7:00)GMT-07:00",
+                "value": "Etc/GMT+7"
+            },
+            {
+                "id": "America/Belize",
+                "label": "(UTC-6:00)Central Standard Time",
+                "text": "(UTC-6:00)Central Standard Time",
+                "value": "America/Belize"
+            },
+            {
+                "id": "Chile/EasterIsland",
+                "label": "(UTC-6:00)Easter Is. Time",
+                "text": "(UTC-6:00)Easter Is. Time",
+                "value": "Chile/EasterIsland"
+            },
+            {
+                "id": "Etc/GMT+6",
+                "label": "(UTC-6:00)GMT-06:00",
+                "text": "(UTC-6:00)GMT-06:00",
+                "value": "Etc/GMT+6"
+            },
+            {
+                "id": "Pacific/Galapagos",
+                "label": "(UTC-6:00)Galapagos Time",
+                "text": "(UTC-6:00)Galapagos Time",
+                "value": "Pacific/Galapagos"
+            },
+            {
+                "id": "America/Atikokan",
+                "label": "(UTC-5:00)Eastern Standard Time",
+                "text": "(UTC-5:00)Eastern Standard Time",
+                "value": "America/Atikokan"
+            },
+            {
+                "id": "America/Bogota",
+                "label": "(UTC-5:00)Colombia Time",
+                "text": "(UTC-5:00)Colombia Time",
+                "value": "America/Bogota"
+            },
+            {
+                "id": "America/Eirunepe",
+                "label": "(UTC-5:00)Acre Time",
+                "text": "(UTC-5:00)Acre Time",
+                "value": "America/Eirunepe"
+            },
+            {
+                "id": "America/Guayaquil",
+                "label": "(UTC-5:00)Ecuador Time",
+                "text": "(UTC-5:00)Ecuador Time",
+                "value": "America/Guayaquil"
+            },
+            {
+                "id": "America/Havana",
+                "label": "(UTC-5:00)Cuba Standard Time",
+                "text": "(UTC-5:00)Cuba Standard Time",
+                "value": "America/Havana"
+            },
+            {
+                "id": "America/Lima",
+                "label": "(UTC-5:00)Peru Time",
+                "text": "(UTC-5:00)Peru Time",
+                "value": "America/Lima"
+            },
+            {
+                "id": "Etc/GMT+5",
+                "label": "(UTC-5:00)GMT-05:00",
+                "text": "(UTC-5:00)GMT-05:00",
+                "value": "Etc/GMT+5"
+            },
+            {
+                "id": "America/Caracas",
+                "label": "(UTC-4:00)Venezuela Time",
+                "text": "(UTC-4:00)Venezuela Time",
+                "value": "America/Caracas"
+            },
+            {
+                "id": "America/Anguilla",
+                "label": "(UTC-4:00)Atlantic Standard Time",
+                "text": "(UTC-4:00)Atlantic Standard Time",
+                "value": "America/Anguilla"
+            },
+            {
+                "id": "America/Asuncion",
+                "label": "(UTC-4:00)Paraguay Time",
+                "text": "(UTC-4:00)Paraguay Time",
+                "value": "America/Asuncion"
+            },
+            {
+                "id": "America/Boa_Vista",
+                "label": "(UTC-4:00)Amazon Time",
+                "text": "(UTC-4:00)Amazon Time",
+                "value": "America/Boa_Vista"
+            },
+            {
+                "id": "America/Guyana",
+                "label": "(UTC-4:00)Guyana Time",
+                "text": "(UTC-4:00)Guyana Time",
+                "value": "America/Guyana"
+            },
+            {
+                "id": "America/La_Paz",
+                "label": "(UTC-4:00)Bolivia Time",
+                "text": "(UTC-4:00)Bolivia Time",
+                "value": "America/La_Paz"
+            },
+            {
+                "id": "America/Santiago",
+                "label": "(UTC-4:00)Chile Time",
+                "text": "(UTC-4:00)Chile Time",
+                "value": "America/Santiago"
+            },
+            {
+                "id": "Atlantic/Stanley",
+                "label": "(UTC-4:00)Falkland Is. Time",
+                "text": "(UTC-4:00)Falkland Is. Time",
+                "value": "Atlantic/Stanley"
+            },
+            {
+                "id": "Etc/GMT+4",
+                "label": "(UTC-4:00)GMT-04:00",
+                "text": "(UTC-4:00)GMT-04:00",
+                "value": "Etc/GMT+4"
+            },
+            {
+                "id": "America/St_Johns",
+                "label": "(UTC-3:00)Newfoundland Standard Time",
+                "text": "(UTC-3:00)Newfoundland Standard Time",
+                "value": "America/St_Johns"
+            },
+            {
+                "id": "AGT",
+                "label": "(UTC-3:00)Argentine Time",
+                "text": "(UTC-3:00)Argentine Time",
+                "value": "AGT"
+            },
+            {
+                "id": "America/Araguaina",
+                "label": "(UTC-3:00)Brasilia Time",
+                "text": "(UTC-3:00)Brasilia Time",
+                "value": "America/Araguaina"
+            },
+            {
+                "id": "America/Cayenne",
+                "label": "(UTC-3:00)French Guiana Time",
+                "text": "(UTC-3:00)French Guiana Time",
+                "value": "America/Cayenne"
+            },
+            {
+                "id": "America/Godthab",
+                "label": "(UTC-3:00)Western Greenland Time",
+                "text": "(UTC-3:00)Western Greenland Time",
+                "value": "America/Godthab"
+            },
+            {
+                "id": "America/Miquelon",
+                "label": "(UTC-3:00)Pierre & Miquelon Standard Time",
+                "text": "(UTC-3:00)Pierre & Miquelon Standard Time",
+                "value": "America/Miquelon"
+            },
+            {
+                "id": "America/Montevideo",
+                "label": "(UTC-3:00)Uruguay Time",
+                "text": "(UTC-3:00)Uruguay Time",
+                "value": "America/Montevideo"
+            },
+            {
+                "id": "America/Paramaribo",
+                "label": "(UTC-3:00)Suriname Time",
+                "text": "(UTC-3:00)Suriname Time",
+                "value": "America/Paramaribo"
+            },
+            {
+                "id": "Antarctica/Rothera",
+                "label": "(UTC-3:00)Rothera Time",
+                "text": "(UTC-3:00)Rothera Time",
+                "value": "Antarctica/Rothera"
+            },
+            {
+                "id": "Etc/GMT+3",
+                "label": "(UTC-3:00)GMT-03:00",
+                "text": "(UTC-3:00)GMT-03:00",
+                "value": "Etc/GMT+3"
+            },
+            {
+                "id": "America/Noronha",
+                "label": "(UTC-2:00)Fernando de Noronha Time",
+                "text": "(UTC-2:00)Fernando de Noronha Time",
+                "value": "America/Noronha"
+            },
+            {
+                "id": "Atlantic/South_Georgia",
+                "label": "(UTC-2:00)South Georgia Standard Time",
+                "text": "(UTC-2:00)South Georgia Standard Time",
+                "value": "Atlantic/South_Georgia"
+            },
+            {
+                "id": "Etc/GMT+2",
+                "label": "(UTC-2:00)GMT-02:00",
+                "text": "(UTC-2:00)GMT-02:00",
+                "value": "Etc/GMT+2"
+            },
+            {
+                "id": "America/Scoresbysund",
+                "label": "(UTC-1:00)Eastern Greenland Time",
+                "text": "(UTC-1:00)Eastern Greenland Time",
+                "value": "America/Scoresbysund"
+            },
+            {
+                "id": "Atlantic/Azores",
+                "label": "(UTC-1:00)Azores Time",
+                "text": "(UTC-1:00)Azores Time",
+                "value": "Atlantic/Azores"
+            },
+            {
+                "id": "Atlantic/Cape_Verde",
+                "label": "(UTC-1:00)Cape Verde Time",
+                "text": "(UTC-1:00)Cape Verde Time",
+                "value": "Atlantic/Cape_Verde"
+            },
+            {
+                "id": "Etc/GMT+1",
+                "label": "(UTC-1:00)GMT-01:00",
+                "text": "(UTC-1:00)GMT-01:00",
+                "value": "Etc/GMT+1"
+            },
+            {
+                "id": "Africa/Abidjan",
+                "label": "(UTC0:00)Greenwich Mean Time",
+                "text": "(UTC0:00)Greenwich Mean Time",
+                "value": "Africa/Abidjan"
+            },
+            {
+                "id": "Africa/Accra",
+                "label": "(UTC0:00)Ghana Mean Time",
+                "text": "(UTC0:00)Ghana Mean Time",
+                "value": "Africa/Accra"
+            },
+            {
+                "id": "Africa/Casablanca",
+                "label": "(UTC0:00)Western European Time",
+                "text": "(UTC0:00)Western European Time",
+                "value": "Africa/Casablanca"
+            },
+            {
+                "id": "Etc/GMT",
+                "label": "(UTC0:00)GMT+00:00",
+                "text": "(UTC0:00)GMT+00:00",
+                "value": "Etc/GMT"
+            },
+            {
+                "id": "Etc/UCT",
+                "label": "(UTC0:00)Coordinated Universal Time",
+                "text": "(UTC0:00)Coordinated Universal Time",
+                "value": "Etc/UCT"
+            },
+            {
+                "id": "Africa/Algiers",
+                "label": "(UTC+1:00)Central European Time",
+                "text": "(UTC+1:00)Central European Time",
+                "value": "Africa/Algiers"
+            },
+            {
+                "id": "Africa/Bangui",
+                "label": "(UTC+1:00)Western African Time",
+                "text": "(UTC+1:00)Western African Time",
+                "value": "Africa/Bangui"
+            },
+            {
+                "id": "Etc/GMT-1",
+                "label": "(UTC+1:00)GMT+01:00",
+                "text": "(UTC+1:00)GMT+01:00",
+                "value": "Etc/GMT-1"
+            },
+            {
+                "id": "MET",
+                "label": "(UTC+1:00)Middle Europe Time",
+                "text": "(UTC+1:00)Middle Europe Time",
+                "value": "MET"
+            },
+            {
+                "id": "ART",
+                "label": "(UTC+2:00)Eastern European Time",
+                "text": "(UTC+2:00)Eastern European Time",
+                "value": "ART"
+            },
+            {
+                "id": "Africa/Blantyre",
+                "label": "(UTC+2:00)Central African Time",
+                "text": "(UTC+2:00)Central African Time",
+                "value": "Africa/Blantyre"
+            },
+            {
+                "id": "Africa/Johannesburg",
+                "label": "(UTC+2:00)South Africa Standard Time",
+                "text": "(UTC+2:00)South Africa Standard Time",
+                "value": "Africa/Johannesburg"
+            },
+            {
+                "id": "Asia/Jerusalem",
+                "label": "(UTC+2:00)Israel Standard Time",
+                "text": "(UTC+2:00)Israel Standard Time",
+                "value": "Asia/Jerusalem"
+            },
+            {
+                "id": "Etc/GMT-2",
+                "label": "(UTC+2:00)GMT+02:00",
+                "text": "(UTC+2:00)GMT+02:00",
+                "value": "Etc/GMT-2"
+            },
+            {
+                "id": "Africa/Addis_Ababa",
+                "label": "(UTC+3:00)Eastern African Time",
+                "text": "(UTC+3:00)Eastern African Time",
+                "value": "Africa/Addis_Ababa"
+            },
+            {
+                "id": "Antarctica/Syowa",
+                "label": "(UTC+3:00)Syowa Time",
+                "text": "(UTC+3:00)Syowa Time",
+                "value": "Antarctica/Syowa"
+            },
+            {
+                "id": "Asia/Aden",
+                "label": "(UTC+3:00)Arabia Standard Time",
+                "text": "(UTC+3:00)Arabia Standard Time",
+                "value": "Asia/Aden"
+            },
+            {
+                "id": "Etc/GMT-3",
+                "label": "(UTC+3:00)GMT+03:00",
+                "text": "(UTC+3:00)GMT+03:00",
+                "value": "Etc/GMT-3"
+            },
+            {
+                "id": "Europe/Moscow",
+                "label": "(UTC+3:00)Moscow Standard Time",
+                "text": "(UTC+3:00)Moscow Standard Time",
+                "value": "Europe/Moscow"
+            },
+            {
+                "id": "Europe/Volgograd",
+                "label": "(UTC+3:00)Volgograd Time",
+                "text": "(UTC+3:00)Volgograd Time",
+                "value": "Europe/Volgograd"
+            },
+            {
+                "id": "Asia/Riyadh87",
+                "label": "(UTC+3:00)GMT+03:07",
+                "text": "(UTC+3:00)GMT+03:07",
+                "value": "Asia/Riyadh87"
+            },
+            {
+                "id": "Asia/Tehran",
+                "label": "(UTC+3:00)Iran Standard Time",
+                "text": "(UTC+3:00)Iran Standard Time",
+                "value": "Asia/Tehran"
+            },
+            {
+                "id": "Asia/Baku",
+                "label": "(UTC+4:00)Azerbaijan Time",
+                "text": "(UTC+4:00)Azerbaijan Time",
+                "value": "Asia/Baku"
+            },
+            {
+                "id": "Asia/Dubai",
+                "label": "(UTC+4:00)Gulf Standard Time",
+                "text": "(UTC+4:00)Gulf Standard Time",
+                "value": "Asia/Dubai"
+            },
+            {
+                "id": "Asia/Tbilisi",
+                "label": "(UTC+4:00)Georgia Time",
+                "text": "(UTC+4:00)Georgia Time",
+                "value": "Asia/Tbilisi"
+            },
+            {
+                "id": "Asia/Yerevan",
+                "label": "(UTC+4:00)Armenia Time",
+                "text": "(UTC+4:00)Armenia Time",
+                "value": "Asia/Yerevan"
+            },
+            {
+                "id": "Etc/GMT-4",
+                "label": "(UTC+4:00)GMT+04:00",
+                "text": "(UTC+4:00)GMT+04:00",
+                "value": "Etc/GMT-4"
+            },
+            {
+                "id": "Europe/Samara",
+                "label": "(UTC+4:00)Samara Time",
+                "text": "(UTC+4:00)Samara Time",
+                "value": "Europe/Samara"
+            },
+            {
+                "id": "Indian/Mahe",
+                "label": "(UTC+4:00)Seychelles Time",
+                "text": "(UTC+4:00)Seychelles Time",
+                "value": "Indian/Mahe"
+            },
+            {
+                "id": "Indian/Mauritius",
+                "label": "(UTC+4:00)Mauritius Time",
+                "text": "(UTC+4:00)Mauritius Time",
+                "value": "Indian/Mauritius"
+            },
+            {
+                "id": "Indian/Reunion",
+                "label": "(UTC+4:00)Reunion Time",
+                "text": "(UTC+4:00)Reunion Time",
+                "value": "Indian/Reunion"
+            },
+            {
+                "id": "Asia/Kabul",
+                "label": "(UTC+4:00)Afghanistan Time",
+                "text": "(UTC+4:00)Afghanistan Time",
+                "value": "Asia/Kabul"
+            },
+            {
+                "id": "Asia/Aqtau",
+                "label": "(UTC+5:00)Aqtau Time",
+                "text": "(UTC+5:00)Aqtau Time",
+                "value": "Asia/Aqtau"
+            },
+            {
+                "id": "Asia/Aqtobe",
+                "label": "(UTC+5:00)Aqtobe Time",
+                "text": "(UTC+5:00)Aqtobe Time",
+                "value": "Asia/Aqtobe"
+            },
+            {
+                "id": "Asia/Ashgabat",
+                "label": "(UTC+5:00)Turkmenistan Time",
+                "text": "(UTC+5:00)Turkmenistan Time",
+                "value": "Asia/Ashgabat"
+            },
+            {
+                "id": "Asia/Dushanbe",
+                "label": "(UTC+5:00)Tajikistan Time",
+                "text": "(UTC+5:00)Tajikistan Time",
+                "value": "Asia/Dushanbe"
+            },
+            {
+                "id": "Asia/Karachi",
+                "label": "(UTC+5:00)Pakistan Time",
+                "text": "(UTC+5:00)Pakistan Time",
+                "value": "Asia/Karachi"
+            },
+            {
+                "id": "Asia/Oral",
+                "label": "(UTC+5:00)Oral Time",
+                "text": "(UTC+5:00)Oral Time",
+                "value": "Asia/Oral"
+            },
+            {
+                "id": "Asia/Samarkand",
+                "label": "(UTC+5:00)Uzbekistan Time",
+                "text": "(UTC+5:00)Uzbekistan Time",
+                "value": "Asia/Samarkand"
+            },
+            {
+                "id": "Asia/Yekaterinburg",
+                "label": "(UTC+5:00)Yekaterinburg Time",
+                "text": "(UTC+5:00)Yekaterinburg Time",
+                "value": "Asia/Yekaterinburg"
+            },
+            {
+                "id": "Etc/GMT-5",
+                "label": "(UTC+5:00)GMT+05:00",
+                "text": "(UTC+5:00)GMT+05:00",
+                "value": "Etc/GMT-5"
+            },
+            {
+                "id": "Indian/Kerguelen",
+                "label": "(UTC+5:00)French Southern & Antarctic Lands Time",
+                "text": "(UTC+5:00)French Southern & Antarctic Lands Time",
+                "value": "Indian/Kerguelen"
+            },
+            {
+                "id": "Indian/Maldives",
+                "label": "(UTC+5:00)Maldives Time",
+                "text": "(UTC+5:00)Maldives Time",
+                "value": "Indian/Maldives"
+            },
+            {
+                "id": "Asia/Calcutta",
+                "label": "(UTC+5:00)India Standard Time",
+                "text": "(UTC+5:00)India Standard Time",
+                "value": "Asia/Calcutta"
+            },
+            {
+                "id": "Asia/Katmandu",
+                "label": "(UTC+5:00)Nepal Time",
+                "text": "(UTC+5:00)Nepal Time",
+                "value": "Asia/Katmandu"
+            },
+            {
+                "id": "Antarctica/Mawson",
+                "label": "(UTC+6:00)Mawson Time",
+                "text": "(UTC+6:00)Mawson Time",
+                "value": "Antarctica/Mawson"
+            },
+            {
+                "id": "Antarctica/Vostok",
+                "label": "(UTC+6:00)Vostok Time",
+                "text": "(UTC+6:00)Vostok Time",
+                "value": "Antarctica/Vostok"
+            },
+            {
+                "id": "Asia/Almaty",
+                "label": "(UTC+6:00)Alma-Ata Time",
+                "text": "(UTC+6:00)Alma-Ata Time",
+                "value": "Asia/Almaty"
+            },
+            {
+                "id": "Asia/Bishkek",
+                "label": "(UTC+6:00)Kirgizstan Time",
+                "text": "(UTC+6:00)Kirgizstan Time",
+                "value": "Asia/Bishkek"
+            },
+            {
+                "id": "Asia/Dacca",
+                "label": "(UTC+6:00)Bangladesh Time",
+                "text": "(UTC+6:00)Bangladesh Time",
+                "value": "Asia/Dacca"
+            },
+            {
+                "id": "Asia/Novosibirsk",
+                "label": "(UTC+6:00)Novosibirsk Time",
+                "text": "(UTC+6:00)Novosibirsk Time",
+                "value": "Asia/Novosibirsk"
+            },
+            {
+                "id": "Asia/Omsk",
+                "label": "(UTC+6:00)Omsk Time",
+                "text": "(UTC+6:00)Omsk Time",
+                "value": "Asia/Omsk"
+            },
+            {
+                "id": "Asia/Qyzylorda",
+                "label": "(UTC+6:00)Qyzylorda Time",
+                "text": "(UTC+6:00)Qyzylorda Time",
+                "value": "Asia/Qyzylorda"
+            },
+            {
+                "id": "Asia/Thimbu",
+                "label": "(UTC+6:00)Bhutan Time",
+                "text": "(UTC+6:00)Bhutan Time",
+                "value": "Asia/Thimbu"
+            },
+            {
+                "id": "Etc/GMT-6",
+                "label": "(UTC+6:00)GMT+06:00",
+                "text": "(UTC+6:00)GMT+06:00",
+                "value": "Etc/GMT-6"
+            },
+            {
+                "id": "Indian/Chagos",
+                "label": "(UTC+6:00)Indian Ocean Territory Time",
+                "text": "(UTC+6:00)Indian Ocean Territory Time",
+                "value": "Indian/Chagos"
+            },
+            {
+                "id": "Asia/Rangoon",
+                "label": "(UTC+6:00)Myanmar Time",
+                "text": "(UTC+6:00)Myanmar Time",
+                "value": "Asia/Rangoon"
+            },
+            {
+                "id": "Indian/Cocos",
+                "label": "(UTC+6:00)Cocos Islands Time",
+                "text": "(UTC+6:00)Cocos Islands Time",
+                "value": "Indian/Cocos"
+            },
+            {
+                "id": "Antarctica/Davis",
+                "label": "(UTC+7:00)Davis Time",
+                "text": "(UTC+7:00)Davis Time",
+                "value": "Antarctica/Davis"
+            },
+            {
+                "id": "Asia/Bangkok",
+                "label": "(UTC+7:00)Indochina Time",
+                "text": "(UTC+7:00)Indochina Time",
+                "value": "Asia/Bangkok"
+            },
+            {
+                "id": "Asia/Hovd",
+                "label": "(UTC+7:00)Hovd Time",
+                "text": "(UTC+7:00)Hovd Time",
+                "value": "Asia/Hovd"
+            },
+            {
+                "id": "Asia/Jakarta",
+                "label": "(UTC+7:00)West Indonesia Time",
+                "text": "(UTC+7:00)West Indonesia Time",
+                "value": "Asia/Jakarta"
+            },
+            {
+                "id": "Asia/Krasnoyarsk",
+                "label": "(UTC+7:00)Krasnoyarsk Time",
+                "text": "(UTC+7:00)Krasnoyarsk Time",
+                "value": "Asia/Krasnoyarsk"
+            },
+            {
+                "id": "Etc/GMT-7",
+                "label": "(UTC+7:00)GMT+07:00",
+                "text": "(UTC+7:00)GMT+07:00",
+                "value": "Etc/GMT-7"
+            },
+            {
+                "id": "Indian/Christmas",
+                "label": "(UTC+7:00)Christmas Island Time",
+                "text": "(UTC+7:00)Christmas Island Time",
+                "value": "Indian/Christmas"
+            },
+            {
+                "id": "Antarctica/Casey",
+                "label": "(UTC+8:00)Western Standard Time (Australia)",
+                "text": "(UTC+8:00)Western Standard Time (Australia)",
+                "value": "Antarctica/Casey"
+            },
+            {
+                "id": "Asia/Brunei",
+                "label": "(UTC+8:00)Brunei Time",
+                "text": "(UTC+8:00)Brunei Time",
+                "value": "Asia/Brunei"
+            },
+            {
+                "id": "Asia/Choibalsan",
+                "label": "(UTC+8:00)Choibalsan Time",
+                "text": "(UTC+8:00)Choibalsan Time",
+                "value": "Asia/Choibalsan"
+            },
+            {
+                "id": "Asia/Shanghai",
+                "label": "(UTC+8:00)China Standard Time",
+                "text": "(UTC+8:00)China Standard Time",
+                "value": "Asia/Shanghai"
+            },
+            {
+                "id": "Asia/Hong_Kong",
+                "label": "(UTC+8:00)Hong Kong Time",
+                "text": "(UTC+8:00)Hong Kong Time",
+                "value": "Asia/Hong_Kong"
+            },
+            {
+                "id": "Asia/Irkutsk",
+                "label": "(UTC+8:00)Irkutsk Time",
+                "text": "(UTC+8:00)Irkutsk Time",
+                "value": "Asia/Irkutsk"
+            },
+            {
+                "id": "Asia/Kuala_Lumpur",
+                "label": "(UTC+8:00)Malaysia Time",
+                "text": "(UTC+8:00)Malaysia Time",
+                "value": "Asia/Kuala_Lumpur"
+            },
+            {
+                "id": "Asia/Makassar",
+                "label": "(UTC+8:00)Central Indonesia Time",
+                "text": "(UTC+8:00)Central Indonesia Time",
+                "value": "Asia/Makassar"
+            },
+            {
+                "id": "Asia/Manila",
+                "label": "(UTC+8:00)Philippines Time",
+                "text": "(UTC+8:00)Philippines Time",
+                "value": "Asia/Manila"
+            },
+            {
+                "id": "Asia/Singapore",
+                "label": "(UTC+8:00)Singapore Time",
+                "text": "(UTC+8:00)Singapore Time",
+                "value": "Asia/Singapore"
+            },
+            {
+                "id": "Asia/Ulaanbaatar",
+                "label": "(UTC+8:00)Ulaanbaatar Time",
+                "text": "(UTC+8:00)Ulaanbaatar Time",
+                "value": "Asia/Ulaanbaatar"
+            },
+            {
+                "id": "Etc/GMT-8",
+                "label": "(UTC+8:00)GMT+08:00",
+                "text": "(UTC+8:00)GMT+08:00",
+                "value": "Etc/GMT-8"
+            },
+            {
+                "id": "Australia/Eucla",
+                "label": "(UTC+8:00)Central Western Standard Time (Australia)",
+                "text": "(UTC+8:00)Central Western Standard Time (Australia)",
+                "value": "Australia/Eucla"
+            },
+            {
+                "id": "Asia/Dili",
+                "label": "(UTC+9:00)Timor-Leste Time",
+                "text": "(UTC+9:00)Timor-Leste Time",
+                "value": "Asia/Dili"
+            },
+            {
+                "id": "Asia/Jayapura",
+                "label": "(UTC+9:00)East Indonesia Time",
+                "text": "(UTC+9:00)East Indonesia Time",
+                "value": "Asia/Jayapura"
+            },
+            {
+                "id": "Asia/Pyongyang",
+                "label": "(UTC+9:00)Korea Standard Time",
+                "text": "(UTC+9:00)Korea Standard Time",
+                "value": "Asia/Pyongyang"
+            },
+            {
+                "id": "Asia/Tokyo",
+                "label": "(UTC+9:00)Japan Standard Time",
+                "text": "(UTC+9:00)Japan Standard Time",
+                "value": "Asia/Tokyo"
+            },
+            {
+                "id": "Asia/Yakutsk",
+                "label": "(UTC+9:00)Yakutsk Time",
+                "text": "(UTC+9:00)Yakutsk Time",
+                "value": "Asia/Yakutsk"
+            },
+            {
+                "id": "Etc/GMT-9",
+                "label": "(UTC+9:00)GMT+09:00",
+                "text": "(UTC+9:00)GMT+09:00",
+                "value": "Etc/GMT-9"
+            },
+            {
+                "id": "Pacific/Palau",
+                "label": "(UTC+9:00)Palau Time",
+                "text": "(UTC+9:00)Palau Time",
+                "value": "Pacific/Palau"
+            },
+            {
+                "id": "ACT",
+                "label": "(UTC+9:00)Central Standard Time (Northern Territory)",
+                "text": "(UTC+9:00)Central Standard Time (Northern Territory)",
+                "value": "ACT"
+            },
+            {
+                "id": "Australia/Adelaide",
+                "label": "(UTC+9:00)Central Standard Time (South Australia)",
+                "text": "(UTC+9:00)Central Standard Time (South Australia)",
+                "value": "Australia/Adelaide"
+            },
+            {
+                "id": "Australia/Broken_Hill",
+                "label": "(UTC+9:00)Central Standard Time (South Australia/New South Wales)",
+                "text": "(UTC+9:00)Central Standard Time (South Australia/New South Wales)",
+                "value": "Australia/Broken_Hill"
+            },
+            {
+                "id": "AET",
+                "label": "(UTC+10:00)Eastern Standard Time (New South Wales)",
+                "text": "(UTC+10:00)Eastern Standard Time (New South Wales)",
+                "value": "AET"
+            },
+            {
+                "id": "Antarctica/DumontDUrville",
+                "label": "(UTC+10:00)Dumont-d|Urville Time",
+                "text": "(UTC+10:00)Dumont-d|Urville Time",
+                "value": "Antarctica/DumontDUrville"
+            },
+            {
+                "id": "Asia/Sakhalin",
+                "label": "(UTC+10:00)Sakhalin Time",
+                "text": "(UTC+10:00)Sakhalin Time",
+                "value": "Asia/Sakhalin"
+            },
+            {
+                "id": "Asia/Vladivostok",
+                "label": "(UTC+10:00)Vladivostok Time",
+                "text": "(UTC+10:00)Vladivostok Time",
+                "value": "Asia/Vladivostok"
+            },
+            {
+                "id": "Australia/Brisbane",
+                "label": "(UTC+10:00)Eastern Standard Time (Queensland)",
+                "text": "(UTC+10:00)Eastern Standard Time (Queensland)",
+                "value": "Australia/Brisbane"
+            },
+            {
+                "id": "Australia/Hobart",
+                "label": "(UTC+10:00)Eastern Standard Time (Tasmania)",
+                "text": "(UTC+10:00)Eastern Standard Time (Tasmania)",
+                "value": "Australia/Hobart"
+            },
+            {
+                "id": "Australia/Melbourne",
+                "label": "(UTC+10:00)Eastern Standard Time (Victoria)",
+                "text": "(UTC+10:00)Eastern Standard Time (Victoria)",
+                "value": "Australia/Melbourne"
+            },
+            {
+                "id": "Etc/GMT-10",
+                "label": "(UTC+10:00)GMT+10:00",
+                "text": "(UTC+10:00)GMT+10:00",
+                "value": "Etc/GMT-10"
+            },
+            {
+                "id": "Pacific/Guam",
+                "label": "(UTC+10:00)Chamorro Standard Time",
+                "text": "(UTC+10:00)Chamorro Standard Time",
+                "value": "Pacific/Guam"
+            },
+            {
+                "id": "Pacific/Port_Moresby",
+                "label": "(UTC+10:00)Papua New Guinea Time",
+                "text": "(UTC+10:00)Papua New Guinea Time",
+                "value": "Pacific/Port_Moresby"
+            },
+            {
+                "id": "Pacific/Truk",
+                "label": "(UTC+10:00)Truk Time",
+                "text": "(UTC+10:00)Truk Time",
+                "value": "Pacific/Truk"
+            },
+            {
+                "id": "Australia/LHI",
+                "label": "(UTC+10:00)Lord Howe Standard Time",
+                "text": "(UTC+10:00)Lord Howe Standard Time",
+                "value": "Australia/LHI"
+            },
+            {
+                "id": "Asia/Magadan",
+                "label": "(UTC+11:00)Magadan Time",
+                "text": "(UTC+11:00)Magadan Time",
+                "value": "Asia/Magadan"
+            },
+            {
+                "id": "Etc/GMT-11",
+                "label": "(UTC+11:00)GMT+11:00",
+                "text": "(UTC+11:00)GMT+11:00",
+                "value": "Etc/GMT-11"
+            },
+            {
+                "id": "Pacific/Efate",
+                "label": "(UTC+11:00)Vanuatu Time",
+                "text": "(UTC+11:00)Vanuatu Time",
+                "value": "Pacific/Efate"
+            },
+            {
+                "id": "Pacific/Guadalcanal",
+                "label": "(UTC+11:00)Solomon Is. Time",
+                "text": "(UTC+11:00)Solomon Is. Time",
+                "value": "Pacific/Guadalcanal"
+            },
+            {
+                "id": "Pacific/Kosrae",
+                "label": "(UTC+11:00)Kosrae Time",
+                "text": "(UTC+11:00)Kosrae Time",
+                "value": "Pacific/Kosrae"
+            },
+            {
+                "id": "Pacific/Noumea",
+                "label": "(UTC+11:00)New Caledonia Time",
+                "text": "(UTC+11:00)New Caledonia Time",
+                "value": "Pacific/Noumea"
+            },
+            {
+                "id": "Pacific/Ponape",
+                "label": "(UTC+11:00)Ponape Time",
+                "text": "(UTC+11:00)Ponape Time",
+                "value": "Pacific/Ponape"
+            },
+            {
+                "id": "Pacific/Norfolk",
+                "label": "(UTC+11:00)Norfolk Time",
+                "text": "(UTC+11:00)Norfolk Time",
+                "value": "Pacific/Norfolk"
+            },
+            {
+                "id": "Antarctica/McMurdo",
+                "label": "(UTC+12:00)New Zealand Standard Time",
+                "text": "(UTC+12:00)New Zealand Standard Time",
+                "value": "Antarctica/McMurdo"
+            },
+            {
+                "id": "Asia/Anadyr",
+                "label": "(UTC+12:00)Anadyr Time",
+                "text": "(UTC+12:00)Anadyr Time",
+                "value": "Asia/Anadyr"
+            },
+            {
+                "id": "Asia/Kamchatka",
+                "label": "(UTC+12:00)Petropavlovsk-Kamchatski Time",
+                "text": "(UTC+12:00)Petropavlovsk-Kamchatski Time",
+                "value": "Asia/Kamchatka"
+            },
+            {
+                "id": "Etc/GMT-12",
+                "label": "(UTC+12:00)GMT+12:00",
+                "text": "(UTC+12:00)GMT+12:00",
+                "value": "Etc/GMT-12"
+            },
+            {
+                "id": "Kwajalein",
+                "label": "(UTC+12:00)Marshall Islands Time",
+                "text": "(UTC+12:00)Marshall Islands Time",
+                "value": "Kwajalein"
+            },
+            {
+                "id": "Pacific/Fiji",
+                "label": "(UTC+12:00)Fiji Time",
+                "text": "(UTC+12:00)Fiji Time",
+                "value": "Pacific/Fiji"
+            },
+            {
+                "id": "Pacific/Funafuti",
+                "label": "(UTC+12:00)Tuvalu Time",
+                "text": "(UTC+12:00)Tuvalu Time",
+                "value": "Pacific/Funafuti"
+            },
+            {
+                "id": "Pacific/Nauru",
+                "label": "(UTC+12:00)Nauru Time",
+                "text": "(UTC+12:00)Nauru Time",
+                "value": "Pacific/Nauru"
+            },
+            {
+                "id": "Pacific/Tarawa",
+                "label": "(UTC+12:00)Gilbert Is. Time",
+                "text": "(UTC+12:00)Gilbert Is. Time",
+                "value": "Pacific/Tarawa"
+            },
+            {
+                "id": "Pacific/Wake",
+                "label": "(UTC+12:00)Wake Time",
+                "text": "(UTC+12:00)Wake Time",
+                "value": "Pacific/Wake"
+            },
+            {
+                "id": "Pacific/Wallis",
+                "label": "(UTC+12:00)Wallis & Futuna Time",
+                "text": "(UTC+12:00)Wallis & Futuna Time",
+                "value": "Pacific/Wallis"
+            },
+            {
+                "id": "NZ-CHAT",
+                "label": "(UTC+12:00)Chatham Standard Time",
+                "text": "(UTC+12:00)Chatham Standard Time",
+                "value": "NZ-CHAT"
+            },
+            {
+                "id": "Etc/GMT-13",
+                "label": "(UTC+13:00)GMT+13:00",
+                "text": "(UTC+13:00)GMT+13:00",
+                "value": "Etc/GMT-13"
+            },
+            {
+                "id": "Pacific/Enderbury",
+                "label": "(UTC+13:00)Phoenix Is. Time",
+                "text": "(UTC+13:00)Phoenix Is. Time",
+                "value": "Pacific/Enderbury"
+            },
+            {
+                "id": "Pacific/Tongatapu",
+                "label": "(UTC+13:00)Tonga Time",
+                "text": "(UTC+13:00)Tonga Time",
+                "value": "Pacific/Tongatapu"
+            },
+            {
+                "id": "Etc/GMT-14",
+                "label": "(UTC+14:00)GMT+14:00",
+                "text": "(UTC+14:00)GMT+14:00",
+                "value": "Etc/GMT-14"
+            },
+            {
+                "id": "Pacific/Kiritimati",
+                "label": "(UTC+14:00)Line Is. Time",
+                "text": "(UTC+14:00)Line Is. Time",
+                "value": "Pacific/Kiritimati"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList113",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "PAGE",
+                "label": "内置页面",
+                "text": "内置页面",
+                "value": "PAGE"
+            },
+            {
+                "id": "URL",
+                "label": "网页路径",
+                "text": "网页路径",
+                "value": "URL"
+            },
+            {
+                "id": "SCRIPT",
+                "label": "脚本",
+                "text": "脚本",
+                "value": "SCRIPT"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList79",
+        "emptytext": "未定义",
+        "items": [
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList110",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "DATE_DIFF_D",
+                "label": "距今天数（日期）",
+                "text": "距今天数（日期）",
+                "value": "DATE_DIFF_D"
+            },
+            {
+                "id": "DATE_DIFF_W",
+                "label": "距今周数（日期）",
+                "text": "距今周数（日期）",
+                "value": "DATE_DIFF_W"
+            },
+            {
+                "id": "DATE_DIFF_M",
+                "label": "距今月份数（日期）",
+                "text": "距今月份数（日期）",
+                "value": "DATE_DIFF_M"
+            },
+            {
+                "id": "DATE_DIFF_Q",
+                "label": "距今季度数（日期）",
+                "text": "距今季度数（日期）",
+                "value": "DATE_DIFF_Q"
+            },
+            {
+                "id": "DATE_DIFF_Y",
+                "label": "距今年数（日期）",
+                "text": "距今年数（日期）",
+                "value": "DATE_DIFF_Y"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList96",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "HTML",
+                "label": "HTML",
+                "text": "HTML",
+                "value": "HTML"
+            },
+            {
+                "id": "SL",
+                "label": "SilverLight",
+                "text": "SilverLight",
+                "value": "SL"
+            },
+            {
+                "id": "WinRT",
+                "label": "WinRT",
+                "text": "WinRT",
+                "value": "WinRT"
+            },
+            {
+                "id": "Android",
+                "label": "Android",
+                "text": "Android",
+                "value": "Android"
+            },
+            {
+                "id": "IOS",
+                "label": "IOS",
+                "text": "IOS",
+                "value": "IOS"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList65",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "BEFORE",
+                "label": "Before",
+                "text": "Before",
+                "value": "BEFORE"
+            },
+            {
+                "id": "AFTER",
+                "label": "After",
+                "text": "After",
+                "value": "AFTER"
+            },
+            {
+                "id": "INSTEADOF",
+                "label": "Instead of",
+                "text": "Instead of",
+                "value": "INSTEADOF"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList57",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "UPDATEWHENMODIFY",
+                "label": "变更时更新",
+                "text": "变更时更新",
+                "value": "UPDATEWHENMODIFY"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList104",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "CARETTEMPLGROUP_SRFREPORT_CHARTDATA",
+                "label": "图表数据定义",
+                "text": "图表数据定义",
+                "value": "CARETTEMPLGROUP_SRFREPORT_CHARTDATA"
+            },
+            {
+                "id": "CARETTEMPLGROUP_SRFREPORT_CHART",
+                "label": "图表表现定义",
+                "text": "图表表现定义",
+                "value": "CARETTEMPLGROUP_SRFREPORT_CHART"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList118",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "CODELISTFILLER",
+                "label": "代码表填充器",
+                "text": "代码表填充器",
+                "value": "CODELISTFILLER"
+            },
+            {
+                "id": "WFPROCESS",
+                "label": "工作流嵌入处理",
+                "text": "工作流嵌入处理",
+                "value": "WFPROCESS"
+            },
+            {
+                "id": "DGACTIONHELPER",
+                "label": "表格后台处理对象",
+                "text": "表格后台处理对象",
+                "value": "DGACTIONHELPER"
+            },
+            {
+                "id": "FORMACTIONHELPER",
+                "label": "表单后台处理类",
+                "text": "表单后台处理类",
+                "value": "FORMACTIONHELPER"
+            },
+            {
+                "id": "PAGE",
+                "label": "页面对象",
+                "text": "页面对象",
+                "value": "PAGE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList27",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "CREATE",
+                "label": "建立",
+                "text": "建立",
+                "value": "CREATE"
+            },
+            {
+                "id": "UPDATE",
+                "label": "更新",
+                "text": "更新",
+                "value": "UPDATE"
+            },
+            {
+                "id": "DELETE",
+                "label": "删除",
+                "text": "删除",
+                "value": "DELETE"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList26",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "10",
+                "label": "10行",
+                "text": "10行",
+                "value": "10"
+            },
+            {
+                "id": "20",
+                "label": "20行",
+                "text": "20行",
+                "value": "20"
+            },
+            {
+                "id": "30",
+                "label": "30行",
+                "text": "30行",
+                "value": "30"
+            },
+            {
+                "id": "40",
+                "label": "40行",
+                "text": "40行",
+                "value": "40"
+            },
+            {
+                "id": "50",
+                "label": "50行",
+                "text": "50行",
+                "value": "50"
+            },
+            {
+                "id": "60",
+                "label": "60行",
+                "text": "60行",
+                "value": "60"
+            },
+            {
+                "id": "70",
+                "label": "70行",
+                "text": "70行",
+                "value": "70"
+            },
+            {
+                "id": "80",
+                "label": "80行",
+                "text": "80行",
+                "value": "80"
+            },
+            {
+                "id": "90",
+                "label": "90行",
+                "text": "90行",
+                "value": "90"
+            },
+            {
+                "id": "100",
+                "label": "100行",
+                "text": "100行",
+                "value": "100"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList85",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "00",
+                "label": "0点",
+                "text": "0点",
+                "value": "00"
+            },
+            {
+                "id": "01",
+                "label": "1点",
+                "text": "1点",
+                "value": "01"
+            },
+            {
+                "id": "02",
+                "label": "2点",
+                "text": "2点",
+                "value": "02"
+            },
+            {
+                "id": "03",
+                "label": "3点",
+                "text": "3点",
+                "value": "03"
+            },
+            {
+                "id": "04",
+                "label": "4点",
+                "text": "4点",
+                "value": "04"
+            },
+            {
+                "id": "05",
+                "label": "5点",
+                "text": "5点",
+                "value": "05"
+            },
+            {
+                "id": "06",
+                "label": "6点",
+                "text": "6点",
+                "value": "06"
+            },
+            {
+                "id": "07",
+                "label": "7点",
+                "text": "7点",
+                "value": "07"
+            },
+            {
+                "id": "08",
+                "label": "8点",
+                "text": "8点",
+                "value": "08"
+            },
+            {
+                "id": "09",
+                "label": "9点",
+                "text": "9点",
+                "value": "09"
+            },
+            {
+                "id": "10",
+                "label": "10点",
+                "text": "10点",
+                "value": "10"
+            },
+            {
+                "id": "11",
+                "label": "11点",
+                "text": "11点",
+                "value": "11"
+            },
+            {
+                "id": "12",
+                "label": "12点",
+                "text": "12点",
+                "value": "12"
+            },
+            {
+                "id": "13",
+                "label": "13点",
+                "text": "13点",
+                "value": "13"
+            },
+            {
+                "id": "14",
+                "label": "14点",
+                "text": "14点",
+                "value": "14"
+            },
+            {
+                "id": "15",
+                "label": "15点",
+                "text": "15点",
+                "value": "15"
+            },
+            {
+                "id": "16",
+                "label": "16点",
+                "text": "16点",
+                "value": "16"
+            },
+            {
+                "id": "17",
+                "label": "17点",
+                "text": "17点",
+                "value": "17"
+            },
+            {
+                "id": "18",
+                "label": "18点",
+                "text": "18点",
+                "value": "18"
+            },
+            {
+                "id": "19",
+                "label": "19点",
+                "text": "19点",
+                "value": "19"
+            },
+            {
+                "id": "20",
+                "label": "20点",
+                "text": "20点",
+                "value": "20"
+            },
+            {
+                "id": "21",
+                "label": "21点",
+                "text": "21点",
+                "value": "21"
+            },
+            {
+                "id": "22",
+                "label": "22点",
+                "text": "22点",
+                "value": "22"
+            },
+            {
+                "id": "23",
+                "label": "23点",
+                "text": "23点",
+                "value": "23"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList23",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "DATAENTITY",
+                "label": "实体",
+                "text": "实体",
+                "value": "DATAENTITY"
+            },
+            {
+                "id": "DEFIELD",
+                "label": "实体属性",
+                "text": "实体属性",
+                "value": "DEFIELD"
+            },
+            {
+                "id": "DER1N",
+                "label": "实体关系",
+                "text": "实体关系",
+                "value": "DER1N"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList101",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "CARETTEMPLGROUP_SRFDA_CONTROLPARAM",
+                "label": "控件基本参数",
+                "text": "控件基本参数",
+                "value": "CARETTEMPLGROUP_SRFDA_CONTROLPARAM"
+            },
+            {
+                "id": "CARETTEMPLGROUP_SRFDA_CONTROLPARAM_CARET",
+                "label": "辅助输入控件参数",
+                "text": "辅助输入控件参数",
+                "value": "CARETTEMPLGROUP_SRFDA_CONTROLPARAM_CARET"
+            },
+            {
+                "id": "CARETTEMPLGROUP_SRFDA_CONTROLPARAM_PICKUP",
+                "label": "选择控件参数",
+                "text": "选择控件参数",
+                "value": "CARETTEMPLGROUP_SRFDA_CONTROLPARAM_PICKUP"
+            },
+            {
+                "id": "CARETTEMPLGROUP_SRFDA_CONTROLPARAM_TEXTBOX",
+                "label": "文本控件参数",
+                "text": "文本控件参数",
+                "value": "CARETTEMPLGROUP_SRFDA_CONTROLPARAM_TEXTBOX"
+            },
+            {
+                "id": "CARETTEMPLGROUP_SRFDA_CONTROLPARAM_PICKUPLISTBOX",
+                "label": "选择列表控件参数",
+                "text": "选择列表控件参数",
+                "value": "CARETTEMPLGROUP_SRFDA_CONTROLPARAM_PICKUPLISTBOX"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList22",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "0",
+                "label": "跳转处理界面",
+                "text": "跳转处理界面",
+                "value": "0"
+            },
+            {
+                "id": "1",
+                "label": "数据编辑界面",
+                "text": "数据编辑界面",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "数据表格界面",
+                "text": "数据表格界面",
+                "value": "2"
+            },
+            {
+                "id": "9",
+                "label": "数据树形界面",
+                "text": "数据树形界面",
+                "value": "9"
+            },
+            {
+                "id": "3",
+                "label": "数据选择界面",
+                "text": "数据选择界面",
+                "value": "3"
+            },
+            {
+                "id": "4",
+                "label": "工作流数据编辑界面",
+                "text": "工作流数据编辑界面",
+                "value": "4"
+            },
+            {
+                "id": "5",
+                "label": "工作流表格界面",
+                "text": "工作流表格界面",
+                "value": "5"
+            },
+            {
+                "id": "6",
+                "label": "工作流管理表格界面",
+                "text": "工作流管理表格界面",
+                "value": "6"
+            },
+            {
+                "id": "7",
+                "label": "导航界面",
+                "text": "导航界面",
+                "value": "7"
+            },
+            {
+                "id": "8",
+                "label": "信息展示界面",
+                "text": "信息展示界面",
+                "value": "8"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList47",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "1号",
+                "text": "1号",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "2号",
+                "text": "2号",
+                "value": "2"
+            },
+            {
+                "id": "3",
+                "label": "3号",
+                "text": "3号",
+                "value": "3"
+            },
+            {
+                "id": "4",
+                "label": "4号",
+                "text": "4号",
+                "value": "4"
+            },
+            {
+                "id": "5",
+                "label": "5号",
+                "text": "5号",
+                "value": "5"
+            },
+            {
+                "id": "6",
+                "label": "6号",
+                "text": "6号",
+                "value": "6"
+            },
+            {
+                "id": "7",
+                "label": "7号",
+                "text": "7号",
+                "value": "7"
+            },
+            {
+                "id": "8",
+                "label": "8号",
+                "text": "8号",
+                "value": "8"
+            },
+            {
+                "id": "9",
+                "label": "9号",
+                "text": "9号",
+                "value": "9"
+            },
+            {
+                "id": "10",
+                "label": "10号",
+                "text": "10号",
+                "value": "10"
+            },
+            {
+                "id": "11",
+                "label": "11号",
+                "text": "11号",
+                "value": "11"
+            },
+            {
+                "id": "12",
+                "label": "12号",
+                "text": "12号",
+                "value": "12"
+            },
+            {
+                "id": "13",
+                "label": "13号",
+                "text": "13号",
+                "value": "13"
+            },
+            {
+                "id": "14",
+                "label": "14号",
+                "text": "14号",
+                "value": "14"
+            },
+            {
+                "id": "15",
+                "label": "15号",
+                "text": "15号",
+                "value": "15"
+            },
+            {
+                "id": "16",
+                "label": "16号",
+                "text": "16号",
+                "value": "16"
+            },
+            {
+                "id": "17",
+                "label": "17号",
+                "text": "17号",
+                "value": "17"
+            },
+            {
+                "id": "18",
+                "label": "18号",
+                "text": "18号",
+                "value": "18"
+            },
+            {
+                "id": "19",
+                "label": "19号",
+                "text": "19号",
+                "value": "19"
+            },
+            {
+                "id": "20",
+                "label": "20号",
+                "text": "20号",
+                "value": "20"
+            },
+            {
+                "id": "21",
+                "label": "21号",
+                "text": "21号",
+                "value": "21"
+            },
+            {
+                "id": "22",
+                "label": "22号",
+                "text": "22号",
+                "value": "22"
+            },
+            {
+                "id": "23",
+                "label": "23号",
+                "text": "23号",
+                "value": "23"
+            },
+            {
+                "id": "24",
+                "label": "24号",
+                "text": "24号",
+                "value": "24"
+            },
+            {
+                "id": "25",
+                "label": "25号",
+                "text": "25号",
+                "value": "25"
+            },
+            {
+                "id": "26",
+                "label": "26号",
+                "text": "26号",
+                "value": "26"
+            },
+            {
+                "id": "27",
+                "label": "27号",
+                "text": "27号",
+                "value": "27"
+            },
+            {
+                "id": "28",
+                "label": "28号",
+                "text": "28号",
+                "value": "28"
+            },
+            {
+                "id": "29",
+                "label": "29号",
+                "text": "29号",
+                "value": "29"
+            },
+            {
+                "id": "30",
+                "label": "30号",
+                "text": "30号",
+                "value": "30"
+            },
+            {
+                "id": "31",
+                "label": "31号",
+                "text": "31号",
+                "value": "31"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList48",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "每周",
+                "text": "每周",
+                "value": "1"
+            },
+            {
+                "id": "2",
+                "label": "每月",
+                "text": "每月",
+                "value": "2"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList67",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "For Each Row",
+                "label": "For Each Row",
+                "text": "For Each Row",
+                "value": "For Each Row"
+            },
+            {
+                "id": "For Each Statement",
+                "label": "For Each Statement",
+                "text": "For Each Statement",
+                "value": "For Each Statement"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList33",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "DB2",
+                "label": "DB2",
+                "text": "DB2",
+                "value": "DB2"
+            },
+            {
+                "id": "ORACLE",
+                "label": "ORACLE",
+                "text": "ORACLE",
+                "value": "ORACLE"
+            },
+            {
+                "id": "MSSQL",
+                "label": "MSSQLSERVER",
+                "text": "MSSQLSERVER",
+                "value": "MSSQL"
+            },
+            {
+                "id": "MYSQL",
+                "label": "MySQL",
+                "text": "MySQL",
+                "value": "MYSQL"
+            },
+            {
+                "id": "SYBASE",
+                "label": "SYBASE",
+                "text": "SYBASE",
+                "value": "SYBASE"
+            },
+            {
+                "id": "INFORMIX",
+                "label": "INFORMIX",
+                "text": "INFORMIX",
+                "value": "INFORMIX"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList114",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "1",
+                "label": "基础",
+                "text": "基础",
+                "value": "1"
+            },
+            {
+                "id": "128",
+                "label": "树视图常规",
+                "text": "树视图常规",
+                "value": "128"
+            },
+            {
+                "id": "2",
+                "label": "树视图高级",
+                "text": "树视图高级",
+                "value": "2"
+            },
+            {
+                "id": "4",
+                "label": "TAB视图",
+                "text": "TAB视图",
+                "value": "4"
+            },
+            {
+                "id": "8",
+                "label": "动态面板",
+                "text": "动态面板",
+                "value": "8"
+            },
+            {
+                "id": "16",
+                "label": "搜索面板",
+                "text": "搜索面板",
+                "value": "16"
+            },
+            {
+                "id": "32",
+                "label": "表格视图常规",
+                "text": "表格视图常规",
+                "value": "32"
+            },
+            {
+                "id": "64",
+                "label": "表格视图高级",
+                "text": "表格视图高级",
+                "value": "64"
+            },
+            {
+                "id": "256",
+                "label": "数据视图",
+                "text": "数据视图",
+                "value": "256"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList116",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "DEFAULT",
+                "label": "默认",
+                "text": "默认",
+                "value": "DEFAULT"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList30",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "GG",
+                "label": "公共",
+                "text": "公共",
+                "value": "GG"
+            },
+            {
+                "id": "SH",
+                "label": "审核",
+                "text": "审核",
+                "value": "SH"
+            },
+            {
+                "id": "PG",
+                "label": "派工",
+                "text": "派工",
+                "value": "PG"
+            },
+            {
+                "id": "SABTYY",
+                "label": "SABTYY",
+                "text": "SABTYY",
+                "value": "SABTYY"
+            },
+            {
+                "id": "RKDSH",
+                "label": "入库单审核",
+                "text": "入库单审核",
+                "value": "RKDSH"
+            },
+            {
+                "id": "CKDSH",
+                "label": "出库单审核",
+                "text": "出库单审核",
+                "value": "CKDSH"
+            },
+            {
+                "id": "BSDSH",
+                "label": "报损单审核",
+                "text": "报损单审核",
+                "value": "BSDSH"
+            },
+            {
+                "id": "SAOA",
+                "label": "SAOA",
+                "text": "SAOA",
+                "value": "SAOA"
+            },
+            {
+                "id": "FW",
+                "label": "发文",
+                "text": "发文",
+                "value": "FW"
+            },
+            {
+                "id": "SW",
+                "label": "收文",
+                "text": "收文",
+                "value": "SW"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList56",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "EN",
+                "label": "英文",
+                "text": "英文",
+                "value": "EN"
+            },
+            {
+                "id": "ZH_CN",
+                "label": "中文简体",
+                "text": "中文简体",
+                "value": "ZH_CN"
+            },
+            {
+                "id": "ZH_TW",
+                "label": "中文繁体（台湾）",
+                "text": "中文繁体（台湾）",
+                "value": "ZH_TW"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList84",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "01",
+                "label": "第1周",
+                "text": "第1周",
+                "value": "01"
+            },
+            {
+                "id": "02",
+                "label": "第2周",
+                "text": "第2周",
+                "value": "02"
+            },
+            {
+                "id": "03",
+                "label": "第3周",
+                "text": "第3周",
+                "value": "03"
+            },
+            {
+                "id": "04",
+                "label": "第4周",
+                "text": "第4周",
+                "value": "04"
+            },
+            {
+                "id": "05",
+                "label": "第5周",
+                "text": "第5周",
+                "value": "05"
+            },
+            {
+                "id": "06",
+                "label": "第6周",
+                "text": "第6周",
+                "value": "06"
+            },
+            {
+                "id": "07",
+                "label": "第7周",
+                "text": "第7周",
+                "value": "07"
+            },
+            {
+                "id": "08",
+                "label": "第8周",
+                "text": "第8周",
+                "value": "08"
+            },
+            {
+                "id": "09",
+                "label": "第9周",
+                "text": "第9周",
+                "value": "09"
+            },
+            {
+                "id": "10",
+                "label": "第10周",
+                "text": "第10周",
+                "value": "10"
+            },
+            {
+                "id": "11",
+                "label": "第11周",
+                "text": "第11周",
+                "value": "11"
+            },
+            {
+                "id": "12",
+                "label": "第12周",
+                "text": "第12周",
+                "value": "12"
+            },
+            {
+                "id": "13",
+                "label": "第13周",
+                "text": "第13周",
+                "value": "13"
+            },
+            {
+                "id": "14",
+                "label": "第14周",
+                "text": "第14周",
+                "value": "14"
+            },
+            {
+                "id": "15",
+                "label": "第15周",
+                "text": "第15周",
+                "value": "15"
+            },
+            {
+                "id": "16",
+                "label": "第16周",
+                "text": "第16周",
+                "value": "16"
+            },
+            {
+                "id": "17",
+                "label": "第17周",
+                "text": "第17周",
+                "value": "17"
+            },
+            {
+                "id": "18",
+                "label": "第18周",
+                "text": "第18周",
+                "value": "18"
+            },
+            {
+                "id": "19",
+                "label": "第19周",
+                "text": "第19周",
+                "value": "19"
+            },
+            {
+                "id": "20",
+                "label": "第20周",
+                "text": "第20周",
+                "value": "20"
+            },
+            {
+                "id": "21",
+                "label": "第21周",
+                "text": "第21周",
+                "value": "21"
+            },
+            {
+                "id": "22",
+                "label": "第22周",
+                "text": "第22周",
+                "value": "22"
+            },
+            {
+                "id": "23",
+                "label": "第23周",
+                "text": "第23周",
+                "value": "23"
+            },
+            {
+                "id": "24",
+                "label": "第24周",
+                "text": "第24周",
+                "value": "24"
+            },
+            {
+                "id": "25",
+                "label": "第25周",
+                "text": "第25周",
+                "value": "25"
+            },
+            {
+                "id": "26",
+                "label": "第26周",
+                "text": "第26周",
+                "value": "26"
+            },
+            {
+                "id": "27",
+                "label": "第27周",
+                "text": "第27周",
+                "value": "27"
+            },
+            {
+                "id": "28",
+                "label": "第28周",
+                "text": "第28周",
+                "value": "28"
+            },
+            {
+                "id": "29",
+                "label": "第29周",
+                "text": "第29周",
+                "value": "29"
+            },
+            {
+                "id": "30",
+                "label": "第30周",
+                "text": "第30周",
+                "value": "30"
+            },
+            {
+                "id": "31",
+                "label": "第31周",
+                "text": "第31周",
+                "value": "31"
+            },
+            {
+                "id": "32",
+                "label": "第32周",
+                "text": "第32周",
+                "value": "32"
+            },
+            {
+                "id": "33",
+                "label": "第33周",
+                "text": "第33周",
+                "value": "33"
+            },
+            {
+                "id": "34",
+                "label": "第34周",
+                "text": "第34周",
+                "value": "34"
+            },
+            {
+                "id": "35",
+                "label": "第35周",
+                "text": "第35周",
+                "value": "35"
+            },
+            {
+                "id": "36",
+                "label": "第36周",
+                "text": "第36周",
+                "value": "36"
+            },
+            {
+                "id": "37",
+                "label": "第37周",
+                "text": "第37周",
+                "value": "37"
+            },
+            {
+                "id": "38",
+                "label": "第38周",
+                "text": "第38周",
+                "value": "38"
+            },
+            {
+                "id": "39",
+                "label": "第39周",
+                "text": "第39周",
+                "value": "39"
+            },
+            {
+                "id": "40",
+                "label": "第40周",
+                "text": "第40周",
+                "value": "40"
+            },
+            {
+                "id": "41",
+                "label": "第41周",
+                "text": "第41周",
+                "value": "41"
+            },
+            {
+                "id": "42",
+                "label": "第42周",
+                "text": "第42周",
+                "value": "42"
+            },
+            {
+                "id": "43",
+                "label": "第43周",
+                "text": "第43周",
+                "value": "43"
+            },
+            {
+                "id": "44",
+                "label": "第44周",
+                "text": "第44周",
+                "value": "44"
+            },
+            {
+                "id": "45",
+                "label": "第45周",
+                "text": "第45周",
+                "value": "45"
+            },
+            {
+                "id": "46",
+                "label": "第46周",
+                "text": "第46周",
+                "value": "46"
+            },
+            {
+                "id": "47",
+                "label": "第47周",
+                "text": "第47周",
+                "value": "47"
+            },
+            {
+                "id": "48",
+                "label": "第48周",
+                "text": "第48周",
+                "value": "48"
+            },
+            {
+                "id": "49",
+                "label": "第49周",
+                "text": "第49周",
+                "value": "49"
+            },
+            {
+                "id": "50",
+                "label": "第50周",
+                "text": "第50周",
+                "value": "50"
+            },
+            {
+                "id": "51",
+                "label": "第51周",
+                "text": "第51周",
+                "value": "51"
+            },
+            {
+                "id": "52",
+                "label": "第52周",
+                "text": "第52周",
+                "value": "52"
+            },
+        ]
+    },
+    {
+        "srfkey": "ibzocr_CodeList97",
+        "emptytext": "未定义",
+        "items": [
+            {
+                "id": "IN",
+                "label": "输入",
+                "text": "输入",
+                "value": "IN"
+            },
+            {
+                "id": "OUT",
+                "label": "输出",
+                "text": "输出",
+                "value": "OUT"
+            },
+        ]
+    },
+])

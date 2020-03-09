@@ -1,0 +1,43 @@
+.el-popover {
+    overflow-y: auto;
+    //z-index: 99 !important;
+    background: var(--app-bg-sider-content);
+    border: 1px solid var(--app-color-font-content);
+    padding: 0px;
+    color: var(--app-color-font-content);
+    line-height: 1.4;
+    text-align: justify;
+    font-size: 14px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow-y: hidden;
+    .el-card__header {
+        padding: 5px 10px;
+        border-bottom: 1px solid var(--app-color-split-trigger);
+        color: var(--app-color-font-content);
+    }
+    .el-card{
+        min-width: 150px;
+        border: none;
+        background-color: var(--app-bg-content);
+        color: var(--app-color-font-content);
+    }
+    .el-card__body {
+        padding: 0px;
+        overflow-x:hidden;
+        overflow-y: auto;
+        .viewcontainer2{
+            .content-container{
+                margin: 0;
+            }
+        }
+    }
+}
+.clearfix{
+    position: relative;
+    .cancel{
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+}

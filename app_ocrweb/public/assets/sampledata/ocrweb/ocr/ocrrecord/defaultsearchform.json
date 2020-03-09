@@ -1,0 +1,22 @@
+defaultsearchform([
+    {
+        "name": "n_ocrrecordid_like",
+        "valueitem": "ocrrecordid"
+    },
+    {
+        "name": "n_ocrrecordname_like",
+        "valueitem": "ocrrecordname"
+    },
+    {
+        "name": "n_procstate_eq",
+        "valueitem": "procstate"
+    },
+    {
+        "name": "n_updatedate_gtandeq",
+        "valueitem": "updatedate"
+    },
+    {
+        "name": "n_updatedate_ltandeq",
+        "valueitem": "updatedate"
+    },
+])

@@ -1,0 +1,80 @@
+@import '../../node_modules/font-awesome/less/font-awesome.less';
+@import '../theme/blue.theme.less';
+@import '../theme/dark-blue.theme.less';
+@import '../theme/default.theme.less';
+@import './var.css';
+
+
+.view-container {
+    height: calc(100% - 38px);
+    // height: 100%;
+    // display: flex;
+    padding: 0 15px;
+    // flex-direction: column;
+    > .view-card {
+        height: 100%;
+        // display: flex;
+        // flex-direction: column;
+        > .ivu-card-body {
+            // height: 50%;
+            // flex-grow: 1;
+            height: calc(100% - 51px);
+            overflow: auto;
+            padding: 0px;
+            > .content-container {
+                height: 100%;
+                display: flex;
+                margin: 0;
+                flex-direction: column;
+            }
+        }
+    }
+    > .view-card.view-no-caption {
+        > .ivu-card-body {
+            height: 100%;
+        }
+    }
+}
+.viewcontainer2 {
+    height: 100%;
+    width: 100%;
+}
+.viewcontainer3 {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+
+/***    BRGIN:加载遮罩    ***/
+.el-loading-mask {
+    background-color: initial;
+    .el-loading-spinner {
+        .path {
+            stroke-width: 3px;
+        }
+    }
+}
+/***    END:加载遮罩    ***/
+
+.grid-row-select {
+    background-color: #ecf5ff !important;
+    td {
+        background-color: #ecf5ff !important;
+    }
+}
+
+/***    BRGIN:表单错误信息2    ***/
+.app-form-item-error-info {
+    display: flex;
+    .icon {
+        width: 30px;
+        flex-shrink: 0;
+    }
+    .contant{
+        flex-grow: 1;
+    }
+}
+/***    END:表单错误信息2    ***/
+
+@import './user.less';

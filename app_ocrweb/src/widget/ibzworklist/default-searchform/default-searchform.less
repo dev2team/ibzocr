@@ -1,0 +1,53 @@
+.ivu-tabs-no-animation>.ivu-tabs-content{
+    padding: 0 16px;
+}
+.ivu-card-head{
+    padding: 14px 0;
+}
+.app-search-form {
+    display: flex;
+    >.ivu-row {
+        flex-grow: 1;
+    }
+    .search_reset {
+        width: 100px;
+        margin-left: 10px;
+        height: 32px;
+        .el-button-group {
+            .el-button {
+                height: 32px;
+            }
+            >.el-button:not(:last-child) {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+.app-search-form-flex {
+    height: 100%;
+    > .ivu-row {
+        height: 100%;
+        > .ivu-tabs {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            > .ivu-tabs-content {
+                flex-grow: 1;
+                overflow: auto;
+                > .ivu-tabs-tabpane {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+.app-tabpanel-flex {
+    height: 100%;
+    > .ivu-tabs-content {
+        height: calc(100% - 52px);
+        > .ivu-tabs-tabpane {
+            height: 100%;
+        }
+    }
+}
+// this is less

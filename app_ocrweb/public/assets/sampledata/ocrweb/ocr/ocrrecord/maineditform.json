@@ -1,0 +1,58 @@
+maineditform([
+    {
+        "name": "srfupdatedate",
+        "valueitem": "updatedate"
+    },
+    {
+        "name": "srforikey",
+        "valueitem": ""
+    },
+    {
+        "name": "srfkey",
+        "valueitem": "ocrrecordid"
+    },
+    {
+        "name": "srfmajortext",
+        "valueitem": "ocrrecordname"
+    },
+    {
+        "name": "srftempmode",
+        "valueitem": ""
+    },
+    {
+        "name": "srfuf",
+        "valueitem": ""
+    },
+    {
+        "name": "srfdeid",
+        "valueitem": ""
+    },
+    {
+        "name": "srfsourcekey",
+        "valueitem": ""
+    },
+    {
+        "name": "ocrrecordname",
+        "valueitem": "ocrrecordname"
+    },
+    {
+        "name": "createman",
+        "valueitem": "createman"
+    },
+    {
+        "name": "createdate",
+        "valueitem": "createdate"
+    },
+    {
+        "name": "updateman",
+        "valueitem": "updateman"
+    },
+    {
+        "name": "updatedate",
+        "valueitem": "updatedate"
+    },
+    {
+        "name": "ocrrecordid",
+        "valueitem": "ocrrecordid"
+    },
+])
