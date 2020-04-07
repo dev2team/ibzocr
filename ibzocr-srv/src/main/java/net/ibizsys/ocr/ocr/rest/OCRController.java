@@ -4,14 +4,14 @@ package net.ibizsys.ocr.ocr.rest;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
+
 import javax.validation.constraints.NotBlank;
-import net.ibizsys.ocr.dto.OCRResult;
-import net.ibizsys.ocr.ibizutil.errors.BadRequestAlertException;
-import net.ibizsys.ocr.ocr.service.OCRService;
-import net.ibizsys.ocr.ocr.util.FileUtil;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;
@@ -21,12 +21,24 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import net.ibizsys.ocr.ibizutil.errors.InternalServerErrorException;
+
 import net.ibizsys.ocr.dto.ImgItem;
+import net.ibizsys.ocr.dto.OCRResult;
+import net.ibizsys.ocr.ibizutil.errors.BadRequestAlertException;
+import net.ibizsys.ocr.ibizutil.errors.InternalServerErrorException;
 import net.ibizsys.ocr.ocr.domain.OCRRecord;
 import net.ibizsys.ocr.ocr.service.OCRRecordService;
+import net.ibizsys.ocr.ocr.service.OCRService;
+import net.ibizsys.ocr.ocr.util.FileUtil;
 
 @RestController
 public class OCRController {

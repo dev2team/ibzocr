@@ -1,30 +1,31 @@
 package net.ibizsys.ocr.ocr.rest;
 
-import net.ibizsys.ocr.dto.NLPResult;
-import net.ibizsys.ocr.dto.OCRFileParam;
-import net.ibizsys.ocr.dto.OCRResult;
-import net.ibizsys.ocr.ibizutil.errors.BadRequestAlertException;
-import net.ibizsys.ocr.ibizutil.errors.InternalServerErrorException;
-import net.ibizsys.ocr.ocr.service.OCRConvertService;
-import net.ibizsys.ocr.ocr.service.OCRService;
-import net.ibizsys.ocr.ocr.util.FileUtil;
-import net.ibizsys.ocr.ocr.util.FreemarkerUtils;
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+
+import javax.servlet.http.HttpServletResponse;
+import javax.validation.constraints.NotBlank;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpServletResponse;
-import javax.validation.constraints.NotBlank;
-import java.io.*;
-import java.net.URLEncoder;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Map;
+import net.ibizsys.ocr.dto.OCRFileParam;
+import net.ibizsys.ocr.ibizutil.errors.BadRequestAlertException;
+import net.ibizsys.ocr.ibizutil.errors.InternalServerErrorException;
+import net.ibizsys.ocr.ocr.service.OCRConvertService;
+import net.ibizsys.ocr.ocr.util.FileUtil;
 
 @RestController
 @RequestMapping("/")

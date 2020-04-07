@@ -1,50 +1,33 @@
 
 package net.ibizsys.ocr.ocr.rest;
 
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
-import java.sql.Timestamp;
-import javax.annotation.Resource;
+
+import javax.validation.constraints.NotBlank;
+
+import com.alibaba.fastjson.JSONObject;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cglib.beans.BeanCopier;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.util.StringUtils;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import lombok.Data;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonProperty.Access;
-import net.ibizsys.ocr.ibizutil.domain.ActionResult;
-import net.ibizsys.ocr.ocr.service.OCRRecordService;
-import net.ibizsys.ocr.ibizutil.domain.AutoCompleteItem;
+
 import net.ibizsys.ocr.ocr.domain.OCRRecord;
+import net.ibizsys.ocr.ocr.service.OCRRecordService;
 import net.ibizsys.ocr.ocr.service.dto.OCRRecordSearchFilter;
-import net.ibizsys.ocr.ocr.vo.*;
-import org.springframework.cglib.beans.BeanGenerator;
-import org.springframework.cglib.beans.BeanMap;
-import org.springframework.util.StringUtils;
-import java.io.IOException;
-import net.ibizsys.ocr.ibizutil.errors.BadRequestAlertException;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.http.ResponseEntity;
-import org.springframework.beans.factory.annotation.Autowired;
-import net.ibizsys.ocr.ibizutil.domain.RedirectResult;
-import javax.validation.constraints.NotBlank;
-import net.ibizsys.ocr.ibizutil.domain.AutoCompleteItem;
-import java.math.BigInteger;
-import com.alibaba.fastjson.JSONObject;
-import org.springframework.cglib.beans.BeanCopier;
-import org.springframework.security.access.prepost.PreAuthorize;
+import net.ibizsys.ocr.ocr.vo.OCRRecord_EditForm_Main;
+import net.ibizsys.ocr.ocr.vo.OCRRecord_Grid_Main;
+import net.ibizsys.ocr.ocr.vo.OCRRecord_SearchForm_Default;
 
 @RestController
 public class OCRRecordController{
