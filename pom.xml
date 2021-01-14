@@ -27,7 +27,7 @@
         <hankcs-hanlp.version>portable-1.7.2</hankcs-hanlp.version>
         <commons-logging.version>1.2</commons-logging.version>
         <lowagie-itextasian.version>1.0.0</lowagie-itextasian.version>
-        <apache-poi.version>3.13</apache-poi.version>
+        <apache-poi.version>4.1.2</apache-poi.version>
         <springfox-swagger.version>2.8.0</springfox-swagger.version>
         <logstash-logback-encoder.version>5.1</logstash-logback-encoder.version>
         <jsonwebtoken-jjwt.version>0.9.1</jsonwebtoken-jjwt.version>
