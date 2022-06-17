@@ -37,7 +37,7 @@
         <jexcelapi-jxl.version>2.6.12</jexcelapi-jxl.version>
         <spring-batch.version>4.1.2.RELEASE</spring-batch.version>
         <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
-        <drools-version>7.23.0.Final</drools-version>
+        <drools-version>7.60.0.Final</drools-version>
         <caffeine-cache>2.6.0</caffeine-cache>
         <h2-version>1.4.200</h2-version>
         <kryo-version>4.0.2</kryo-version>
